@@ -15,7 +15,7 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header class="mb150">
+    <header class="mb100">
         <!-- Navbar -->
         <?php include '../pages/inc/dashboard-header.php'; ?>
         <!-- End Navbar -->
@@ -45,16 +45,16 @@
                     <div class="card nopad">
                         <ul class="nav nav-tabs nav-tabs-primary">
                             <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#home">
-                                <i class="now-ui-icons objects_umbrella-13"></i> Home
+                                <i class="now-ui-icons objects_umbrella-13"></i> Tab 1
                             </li>
                             <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#profile">
-                                <i class="now-ui-icons shopping_cart-simple"></i> Profile
+                                <i class="now-ui-icons shopping_cart-simple"></i> Tab 2
                             </li>
                             <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#messages">
-                                <i class="now-ui-icons shopping_shop"></i> Messages
+                                <i class="now-ui-icons shopping_shop"></i> Tab 3
                             </li>
                             <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#settings">
-                                <i class="now-ui-icons ui-2_settings-90"></i> Settings
+                                <i class="now-ui-icons ui-2_settings-90"></i> Tab 4
                             </li>
                         </ul>
                         <div class="card-body fixedHeight">
@@ -133,7 +133,8 @@
                 </div>
             </div>
         </section>
-        <section class="container noborder">
+
+        <section class="container wow fadeInUp">
             <div class="card">
                 <h3>My Work</h3>
                 <div class="row">
@@ -150,7 +151,7 @@
                 </div>
             </div>
         </section>
-        <section class="container noborder">
+        <section class="container wow fadeInUp noborder">
             <div class="row">
                 <div class="col-6">
                     <a href="#" class="big">My Work</a>
@@ -177,7 +178,6 @@
             </div>
         </section>
     </main>
-
 
     <?php include '../pages/inc/footer.php'; ?>
     <?php include '../pages/inc/globals-bottom.php'; ?>
