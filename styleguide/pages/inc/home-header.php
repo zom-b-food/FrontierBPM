@@ -68,7 +68,7 @@
      </div>
  </nav>
  <!-- End Navbar -->
- <div class="page-header" filter-color="blue">
+ <div class="page-header-hero">
      <div class="page-header-image" data-parallax="true"
          style="background-image: url('../dist/img/backgrounds/hero.jpg');">
      </div>

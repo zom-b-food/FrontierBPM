@@ -1,4 +1,5 @@
- <nav class="navbar navbar-expand-lg bg-primary-fade fixed-top navbar-transparent colorbg" color-on-scroll="200">
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent colorbg" color-on-scroll="200">
      <div class="container">
          <div class="dropdown button-dropdown">
              <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
@@ -36,7 +37,7 @@
                      <a class="nav-link" href="#top">Top</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#middle">Middle</a>
+                     <a class="nav-link" href="#forms">Middle</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link" href="#bottom">Bottom</a>
@@ -66,3 +67,7 @@
          </div>
      </div>
  </nav>
+ <!-- End Navbar -->
+ <div class="page-header-small">
+     l
+ </div>

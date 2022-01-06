@@ -156,7 +156,7 @@ footer {
 #palette {
 	@include full-width();
 }
-.page-header {
+.page-header-hero {
 	height: 82vh;
 	padding: 0;
 	color: $smoke;
@@ -172,6 +172,12 @@ footer {
 		height: 100%;
 		z-index: -1;
 	}
+}
+.page-header-small {
+	height: 60px;
+	padding: 0;
+	color: $smoke;
+	position: relative;
 }
 .container {
 	width: 100%;
