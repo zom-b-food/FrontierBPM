@@ -15,7 +15,7 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header class="mb100">
+    <header class="mb100 bg-primary">
         <!-- Navbar -->
         <?php include '../pages/inc/dashboard-header.php'; ?>
         <!-- End Navbar -->

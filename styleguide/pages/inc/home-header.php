@@ -1,5 +1,5 @@
  <!-- Navbar -->
- <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="200">
+ <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg" color-on-scroll="200">
      <div class="container">
          <div class="dropdown button-dropdown">
              <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">

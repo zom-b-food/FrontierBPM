@@ -632,6 +632,10 @@ footer {
 	border-radius: $border-radius-small;
 	padding:20px;
 }
+
+.colorbg {
+	background-color: $accent-color;
+}
 @media screen and (min-width: 572px) {
 	.onlysmall {
 		display: none;
