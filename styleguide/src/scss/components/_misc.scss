@@ -175,3 +175,17 @@ span.note {
   font-size:90%;
   text-transform: none;
 }
+
+a.top {
+  margin-top:0px;
+    border-radius: 0.1875rem;
+    padding: 6px;
+}
+a.home {
+  @extend .top;
+  margin-top:0;
+}
+nav.top {
+  margin-top:-5px;
+
+}

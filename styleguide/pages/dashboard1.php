@@ -17,7 +17,7 @@
     </script>
     <header class="mb100 bg-primary">
         <!-- Navbar -->
-        <?php include '../pages/inc/dashboard-header.php'; ?>
+        <?php include '../pages/inc/pages-header.php'; ?>
         <!-- End Navbar -->
     </header>
     <main role="main">

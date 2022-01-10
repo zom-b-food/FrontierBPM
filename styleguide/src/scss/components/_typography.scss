@@ -258,7 +258,14 @@ a.big{
     color: $primary-color;
     font-size:1rem;
 }
-
+a.small{
+    @extend a;
+    color: $primary-color;
+    font-size:.5rem;
+}
+.strong {
+  font-weight: $font-weight-bold;
+}
 .title{
     font-weight: $font-weight-bold;
 
