@@ -1,7 +1,7 @@
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
      <div class="container">
-         <a class="btn btn-secondary home" href="/index.html" role="button">HOME</a>
+         <a class="btn btn-secondary home" href="#" role="button">HOME</a>
 
          <div class="collapse navbar-collapse justify-content-end" id="navigation">
              <ul class="navbar-nav" id="anchor-menu">
@@ -9,8 +9,7 @@
                      PatientFocus
                  </li>
                  <li class="nav-item">
-                     <a class="btn btn-secondary top" href="#" role="button" data-toggle="modal" data-target="#addNew">+
-                         New</a>
+                     <a class="btn btn-secondary top" href="#" role="button">+ New</a>
                  </li>
                  <li class="nav-item">
                      <div class="input-group">
@@ -63,24 +62,3 @@
  <div class="page-header-small">
      l
  </div>
- <!-- Sart Modal -->
- <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-     <div class="modal-dialog">
-         <div class="modal-content">
-             <div class="modal-header justify-content-center">
-                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                     <i class="now-ui-icons ui-1_simple-remove"></i>
-                 </button>
-                 <h4 class="title title-up">Add Contact</h4>
-             </div>
-             <div class="modal-body">
-                 Add form here
-             </div>
-             <div class="modal-footer">
-                 <button type="button" class="btn btn-primary">Add Contact</button>
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-             </div>
-         </div>
-     </div>
- </div>
- <!--  End Modal -->

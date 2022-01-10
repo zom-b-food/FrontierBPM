@@ -35,7 +35,6 @@
                             <li><a class="btn btn-primary btn-active" href="#" role="button">Dashboard</a></li>
                             <li><a class="btn btn-primary" href="#" role="button">Reports</a></li>
                             <li><a class="btn btn-primary" href="#" role="button">Tools</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Tools</a></li>
                             <li> <a class="btn btn-primary" href="#" role="button">Pulse</a></li>
                             <li> <a class="btn btn-primary" href="#" role="button">Tags</a></li>
                         </ul>

@@ -29,17 +29,7 @@
                     </p>
                 </div>
                 <div class="col-3 sidebar-offcanvas" id="sidebar">
-                    <div class="centered">
-                        <ul class="no-bullet">
-                            <li><a class="btn btn-primary" href="#" role="button">My Work</a></li>
-                            <li><a class="btn btn-primary btn-active" href="#" role="button">Dashboard</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Reports</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Tools</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Tools</a></li>
-                            <li> <a class="btn btn-primary" href="#" role="button">Pulse</a></li>
-                            <li> <a class="btn btn-primary" href="#" role="button">Tags</a></li>
-                        </ul>
-                    </div>
+                    sidebar stuff here
                 </div>
                 <div class="col-9">
                     <h5>Search For Contact</h5>
@@ -135,12 +125,6 @@
             if (immediate && !timeout) func.apply(context, args);
         };
     }
-
-    // Change hash for page-reload because bs tabs jump
-    $(".nav-tabs li.nojump").click(function() {
-        $(".nav-tabs li.nojump").removeClass("active"), $(".nav-tabs li.nojump").removeClass("current"), $(this)
-            .addClass("current")
-    });
 
     new WOW().init();
     </script>
