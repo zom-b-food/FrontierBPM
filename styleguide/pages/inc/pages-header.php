@@ -1,16 +1,23 @@
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
      <div class="container">
-         <a class="btn btn-secondary home" href="/index.html" role="button">HOME</a>
+         <a class="btn btn-secondary home" href="javascript:history.back()" role="button">HOME</a>
 
          <div class="collapse navbar-collapse justify-content-end" id="navigation">
              <ul class="navbar-nav" id="anchor-menu">
-                 <li class="nav-item strong">
+                 <li class="nav-item strong" style="padding-top:8px;">
                      PatientFocus
                  </li>
                  <li class="nav-item">
-                     <a class="btn btn-secondary top" href="#" role="button" data-toggle="modal" data-target="#addNew">+
-                         New</a>
+                     <div class="dropdown">
+                         <button class="btn btn-secondary top">+New</button>
+                         <div class="dropdown-content">
+                             <a href="#">Phone Call</a>
+                             <a href="#">Research</a>
+
+                         </div>
+                     </div>
+
                  </li>
                  <li class="nav-item">
                      <div class="input-group">

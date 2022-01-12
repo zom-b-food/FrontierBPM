@@ -637,6 +637,106 @@ footer {
 	background-color: $accent-color;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: all 1s;
+	padding:10px 4px;
+	background-color: $secondary-color;
+	border:1px solid $primary-color;
+	border-radius: $btn-curved-radius;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+	color:$white;
+	padding:6px;
+}
+
+.dropdown-content a:hover {background-color: $white; color: $secondary-color-opacity;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: $secondary-color-opacity;
+}
+
+p.bottom-align {
+	 display: flex;
+  align-items: flex-end;
+}
+
+.border-left {
+	border-left:2px solid $tertiary-color;
+}
+
+.border-right {
+	border-right:2px solid $tertiary-color;
+	
+}
+
+
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+
 @media (min-width: 576px) {
 .modal-dialog {
     max-width: 90%;

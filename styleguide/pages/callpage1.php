@@ -29,12 +29,153 @@
                     </p>
                 </div>
                 <div class="col-3 sidebar-offcanvas" id="sidebar">
-                    sidebar stuff here
+                    <div class="box">
+                        <p class="bottom-align"><img src="../dist/img/avatar-small.jpg" />&nbsp;<big>Unknown
+                                Contact</big>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-9">
-                    <h5>Search For Contact</h5>
-                    <p>big form</p>
-                    <p></p>
+                <div class="col-9 border-left">
+                    <table class="table-sort">
+                        <thead>
+                            <tr>
+                                <th class="table-sort" scope="col" title="President Number">#</th>
+                                <th class="table-sort" scope="col">Participant</th>
+                                <th class="table-sort" scope="col">Sessions</th>
+                                <th class="table-sort" scope="col">Activation Year</th>
+                                <th class="table-sort" scope="col">Facility</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>George Martin</td>
+                                <td>two</td>
+                                <td>2014</td>
+                                <td>Dallas, TX</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Adam Benson</td>
+                                <td>one</td>
+                                <td>1997</td>
+                                <td>Baltimore, MD</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Thomas Maxwell</td>
+                                <td>two</td>
+                                <td>2011</td>
+                                <td>Dallas, TX</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>James Harte</td>
+                                <td>two</td>
+                                <td>2017</td>
+                                <td>Houston, TX</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>James Latham</td>
+                                <td>two</td>
+                                <td>2012</td>
+                                <td>San Francisco, CA</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Quincy Peebles</td>
+                                <td>one</td>
+                                <td>2009</td>
+                                <td>San Francisco, CA</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Andrew Taylor</td>
+                                <td>two</td>
+                                <td>2007</td>
+                                <td>Seattle, WA</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Van Benson Heinz</td>
+                                <td>one</td>
+                                <td>2001</td>
+                                <td>Modesto, CA</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Henry Stevens</td>
+                                <td>three</td>
+                                <td>2011</td>
+                                <td>Sacramento, CA</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Tyler Hayes</td>
+                                <td>three</td>
+                                <td>2008</td>
+                                <td>Colorado Springs, CA</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Kim Chaiseman</td>
+                                <td>one</td>
+                                <td>2009</td>
+                                <td>Seattle, WA</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Zachary Penmore</td>
+                                <td>three</td>
+                                <td>2014</td>
+                                <td>Tacoma, WA</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Amy Fillmore</td>
+                                <td>three</td>
+                                <td>2016</td>
+                                <td>Albany, NY</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Franklin Nixon Jr</td>
+                                <td>one</td>
+                                <td>2017</td>
+                                <td>Miami, FL</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Carrie Buchanan</td>
+                                <td>one</td>
+                                <td>1999</td>
+                                <td>San Diego, CA</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Tyler McMann</td>
+                                <td>three</td>
+                                <td>2013</td>
+                                <td>Baltimore, MD</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Andrew Wilson</td>
+                                <td>three</td>
+                                <td>2014</td>
+                                <td>Colorado Springs, CO</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Charles Grant</td>
+                                <td>two</td>
+                                <td>2009</td>
+                                <td>Houston, TX</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>ooo</p>
                 </div>
             </div>
         </section>
@@ -45,7 +186,8 @@
 
     <script src="../lib/wow.min.js" type="text/javascript"></script>
     <script src="../lib/bootstrap-4.3.1.min.js" type="text/javascript"></script>
-
+    <script src="../lib/jquery.filtertable.js" type="text/javascript"></script>
+    <script src="../lib/tablesort.js" type="text/javascript"></script>
     <script>
     $(function() {
         $(".preloader").delay(1400).fadeOut();
@@ -125,6 +267,13 @@
             if (immediate && !timeout) func.apply(context, args);
         };
     }
+
+    $(function() {
+        'use strict'
+
+        $('table.table-sort').tablesort();
+        $('table').filterTable();
+    });
 
     new WOW().init();
     </script>
