@@ -58,6 +58,7 @@
   background-color: $primary-color-opacity !important;
 }
 
+.mt10 {margin-top:.25rem !important;}
 .mt20 {margin-top:20px;}
 .mt50 {margin-top:50px;}
 .mt70 {margin-top:70px;}
@@ -68,6 +69,8 @@
 .pt100 {padding-top:100px;}
 .mt100 {margin-top:100px;}
 .pt90  {padding-top:90px;}
+.w100 {width:100%;}
+
 .space {
   height: 130px;
   display: block;
@@ -108,6 +111,10 @@
 
 .nopad {
   padding: 0 !important;
+}
+.nomargin {
+  margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 .input-group-addon {

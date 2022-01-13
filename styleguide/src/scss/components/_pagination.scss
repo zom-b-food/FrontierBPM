@@ -1,10 +1,10 @@
 .pagination{
+   
     .page-item .page-link{
-        border: 0;
-        border-radius: 30px !important;
+       border:1px solid $accent-color;
         transition: all .3s;
         padding: 0px 11px;
-        margin: 0 3px;
+        margin: 0;
         min-width: 30px;
         text-align: center;
         height: 30px;
@@ -17,9 +17,13 @@
 
         &:hover,
         &:focus{
-            color: $black;
-            background-color: $opacity-gray-3;
-            border: none;
+            color: $primary-color;
+            background-color: $accent-color-opacity;
+            border-color: $accent-color;
+        }
+        > .arrow {
+             border:1px solid $primary-color-opacity;
+    border-radius: $border-radius-small;
         }
     }
 
@@ -43,7 +47,7 @@
         &,
         &:focus,
         &:hover{
-            background-color: $default-color;
+            background-color: $accent-color-opacity;
             border-color: $default-color;
             color: $white;
         }
@@ -53,84 +57,6 @@
         opacity: .5;
         background-color: rgba(255,255,255, .2);
         color: $white;
-    }
-
-    // Colors
-    &.pagination-info{
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $brand-info;
-                border-color: $brand-info;
-            }
-        }
-    }
-
-    &.pagination-success{
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $brand-success;
-                border-color: $brand-success;
-            }
-        }
-    }
-
-    &.pagination-primary{
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $brand-primary;
-                border-color: $brand-primary;
-            }
-        }
-    }
-
-    &.pagination-warning{
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $brand-warning;
-                border-color: $brand-warning;
-            }
-        }
-    }
-
-    &.pagination-danger{
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $brand-danger;
-                border-color: $brand-danger;
-            }
-        }
-    }
-
-    &.pagination-neutral{
-        .page-item > .page-link{
-            color: $white;
-
-            &:focus,
-            &:hover{
-                background-color: $opacity-2;
-                color: $white;
-            }
-        }
-
-        .page-item.active > .page-link{
-            &,
-            &:focus,
-            &:hover{
-                background-color: $white-bg;
-                border-color: $white-bg;
-                color: $brand-primary;
-            }
-        }
     }
 
 }

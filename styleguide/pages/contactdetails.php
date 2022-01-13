@@ -173,8 +173,122 @@
                                 <td>2009</td>
                                 <td>Houston, TX</td>
                             </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Carrie Buchanan</td>
+                                <td>one</td>
+                                <td>1999</td>
+                                <td>San Diego, CA</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>Jack Frost</td>
+                                <td>three</td>
+                                <td>2013</td>
+                                <td>Denver, CO</td>
+                            </tr>
+
                         </tbody>
                     </table>
+                    <div class="row">
+                        <div class="col-12">
+
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item">
+                                    <a class="page-link arrow" href="#/" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#/">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#/">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#/">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link arrow" href="#/" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Day</th>
+                                            <th scope="col">Article Name</th>
+                                            <th scope="col">Author</th>
+                                            <th scope="col">Words</th>
+                                            <th scope="col">Shares</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Bootstrap 4 CDN and Starter Template</td>
+                                            <td>Cristina</td>
+                                            <td>913</td>
+                                            <td>2.846</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Bootstrap Grid 4 Tutorial and Examples</td>
+                                            <td>Cristina</td>
+                                            <td>1.434</td>
+                                            <td>3.417</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Bootstrap Flexbox Tutorial and Examples</td>
+                                            <td>1.877</td>
+                                            <td>1.234</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Day</th>
+                                            <th scope="col">Article Name</th>
+                                            <th scope="col">Author</th>
+                                            <th scope="col">Words</th>
+                                            <th scope="col">Shares</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Bootstrap 4 CDN and Starter Template</td>
+                                            <td>Cristina</td>
+                                            <td>913</td>
+                                            <td>2.846</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Bootstrap Grid 4 Tutorial and Examples</td>
+                                            <td>Cristina</td>
+                                            <td>1.434</td>
+                                            <td>3.417</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Bootstrap Flexbox Tutorial and Examples</td>
+                                            <td>1.877</td>
+                                            <td>1.234</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
                     <p>ooo</p>
                 </div>
             </div>
