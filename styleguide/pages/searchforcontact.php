@@ -15,12 +15,16 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header class="mb100 bg-primary">
+    <header class="bg-primary">
         <!-- Navbar -->
         <?php include '../pages/inc/pages-header.php'; ?>
         <!-- End Navbar -->
     </header>
     <main role="main">
+          <section id="top" class="container noborder">
+            <h1>Search For Contact</h1>
+            <p>Lorum ipsum blada...</p>
+        </section>
         <section id="search" class="container wow fadeInUp noborder">
             <div class="col-12">
                 <p class="float-right d-md-none">
