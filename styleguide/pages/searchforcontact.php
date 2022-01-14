@@ -21,7 +21,7 @@
         <!-- End Navbar -->
     </header>
     <main role="main">
-          <section id="top" class="container noborder">
+        <section id="top" class="container noborder">
             <h1>Search For Contact</h1>
             <p>Lorum ipsum blada...</p>
         </section>
@@ -90,7 +90,7 @@
                                 <td>George Martin</td>
                                 <td>two</td>
                                 <td>2014</td>
-                                <td>Dallas, TX</td>
+                                <td>Montpelier, VT</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -131,14 +131,14 @@
                                 <td>7</td>
                                 <td>Andrew Taylor</td>
                                 <td>two</td>
-                                <td>2007</td>
+                                <td>2017</td>
                                 <td>Seattle, WA</td>
                             </tr>
                             <tr>
                                 <td>8</td>
                                 <td>Van Benson Heinz</td>
                                 <td>one</td>
-                                <td>2001</td>
+                                <td>2011</td>
                                 <td>Modesto, CA</td>
                             </tr>
                             <tr>
@@ -150,10 +150,10 @@
                             </tr>
                             <tr>
                                 <td>10</td>
-                                <td>Tyler Hayes</td>
+                                <td>Yuezhi Gao</td>
                                 <td>three</td>
                                 <td>2008</td>
-                                <td>Colorado Springs, CA</td>
+                                <td>Stockton, CA</td>
                             </tr>
                             <tr>
                                 <td>11</td>
@@ -185,10 +185,10 @@
                             </tr>
                             <tr>
                                 <td>15</td>
-                                <td>Carrie Buchanan</td>
+                                <td>Toshi Lee</td>
                                 <td>one</td>
-                                <td>1999</td>
-                                <td>San Diego, CA</td>
+                                <td>2016</td>
+                                <td>Phoenix, AZ</td>
                             </tr>
                             <tr>
                                 <td>16</td>
@@ -206,23 +206,65 @@
                             </tr>
                             <tr>
                                 <td>18</td>
-                                <td>Charles Grant</td>
+                                <td>Taylor Swift</td>
                                 <td>two</td>
                                 <td>2009</td>
-                                <td>Houston, TX</td>
+                                <td>Tamlin, TN</td>
                             </tr>
                             <tr>
                                 <td>19</td>
-                                <td>Carrie Buchanan</td>
+                                <td>Stan Greenburg</td>
                                 <td>one</td>
-                                <td>1999</td>
-                                <td>San Diego, CA</td>
+                                <td>2011</td>
+                                <td>Eugene, OR</td>
                             </tr>
                             <tr>
                                 <td>20</td>
-                                <td>Jack Frost</td>
+                                <td>Brandon Frobisher</td>
+                                <td>three</td>
+                                <td>2020</td>
+                                <td>Smithfield, VA</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>Timothy Hoffstra</td>
+                                <td>one</td>
+                                <td>2004</td>
+                                <td>San Diego, CA</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>George Allen</td>
                                 <td>three</td>
                                 <td>2013</td>
+                                <td>Smallville, MD</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>Benjamin Ceresta</td>
+                                <td>three</td>
+                                <td>2014</td>
+                                <td>Noristown, PA</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>Davila Portuna</td>
+                                <td>two</td>
+                                <td>2019</td>
+                                <td>Seattle, WA</td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>Gemma Butler</td>
+                                <td>one</td>
+                                <td>2018</td>
+                                <td>Marin, CA</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>Jack Dane</td>
+                                <td>three</td>
+                                <td>2020</td>
                                 <td>Denver, CO</td>
                             </tr>
 
@@ -230,7 +272,6 @@
                     </table>
                     <div class="row">
                         <div class="col-12">
-
                             <ul class="pagination justify-content-end">
                                 <li class="page-item">
                                     <a class="page-link arrow" href="#/" aria-label="Previous">
@@ -248,11 +289,8 @@
                                     </a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
-
-                    <p>ooo</p>
                 </div>
             </div>
         </section>
