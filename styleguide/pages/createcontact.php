@@ -21,7 +21,7 @@
         <!-- End Navbar -->
     </header>
     <main role="main">
-          <section id="top" class="container noborder">
+        <section id="top" class="container noborder">
             <h1>Create a New Contact</h1>
             <p>Lorum ipsum blada...</p>
         </section>
@@ -34,266 +34,78 @@
                 </div>
                 <div class="col-3 sidebar-offcanvas" id="sidebar">
                     <div class="box">
-                        <p class="bottom-align"><img src="../dist/img/avatar-small.jpg" />&nbsp;<big>Unknown
-                                Contact</big>
-                        </p>
+                        <div class="row small mt10">
+                            <table class="table-data">
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3" class="avatar">
+                                            <img src="../dist/img/avatar-small.jpg" class="avatar" />
+                                        </td>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jon L. Miragipan</td>
+                                        <td>cont-6312</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="strong">Physician</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="row">
+                            <span class="strong">Contact Information</span>
+                        </div>
+                        <div class="row small-txt mt10">
+                            <div class="col-5">
+                                Phone Number<br />
+                                Email
+                            </div>
+                            <div class="col-7">215-985-9965<br />
+                                drmjpramagan@gmail.com
+                            </div>
+                        </div>
+
+                        <div class="album row">
+                            <div class="col-3"><i class="fa fa-envelope"></i></div>
+                            <div class="col-9">02:22/06.00</div>
+                        </div>
+                        <hr class="nomargin" />
+                        <div class="row">
+                            <span class="strong">Call Details</span>
+                        </div>
+                        <div class="row small-txt mt10">
+                            <div class="col-5">Cell Program<br />
+                                Product Name<br />
+                                Office Contact<br />
+                                Phone Number
+                            </div>
+                            <div class="col-7">FBPM Care Plan<br />
+                                Frontierium (injection)<br />
+                                Nurse Sara<br />
+                                215-985-9965
+                            </div>
+                        </div>
+                        <hr class="nomargin" />
+                        <button class="btn btn-primary btn-sm w100">+ Add Task</button>
+                        <button class="btn btn-secondary btn-sm w100">% Wrap Up</button>
+                        <hr class="nomargin" />
+                        <div class="row">
+                            <span class="strong">Open Tasks</span>
+                        </div>
+                        <div class="row mt10">
+                            <ul class="tight">
+                                <li>Task1: Do this...</li>
+                                <li>Task2: Do that...</li>
+                                <li>Task3: Feed the dog and take a nap before 4pm when the kids will arrive with
+                                    pizza...</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-9 border-left">
-                    <table class="table-sort">
-                        <thead>
-                            <tr>
-                                <th class="table-sort" scope="col" title="President Number">#</th>
-                                <th class="table-sort" scope="col">Participant</th>
-                                <th class="table-sort" scope="col">Sessions</th>
-                                <th class="table-sort" scope="col">Activation Year</th>
-                                <th class="table-sort" scope="col">Facility</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>George Martin</td>
-                                <td>two</td>
-                                <td>2014</td>
-                                <td>Dallas, TX</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Adam Benson</td>
-                                <td>one</td>
-                                <td>1997</td>
-                                <td>Baltimore, MD</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Thomas Maxwell</td>
-                                <td>two</td>
-                                <td>2011</td>
-                                <td>Dallas, TX</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>James Harte</td>
-                                <td>two</td>
-                                <td>2017</td>
-                                <td>Houston, TX</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>James Latham</td>
-                                <td>two</td>
-                                <td>2012</td>
-                                <td>San Francisco, CA</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Quincy Peebles</td>
-                                <td>one</td>
-                                <td>2009</td>
-                                <td>San Francisco, CA</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Andrew Taylor</td>
-                                <td>two</td>
-                                <td>2007</td>
-                                <td>Seattle, WA</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Van Benson Heinz</td>
-                                <td>one</td>
-                                <td>2001</td>
-                                <td>Modesto, CA</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Henry Stevens</td>
-                                <td>three</td>
-                                <td>2011</td>
-                                <td>Sacramento, CA</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Tyler Hayes</td>
-                                <td>three</td>
-                                <td>2008</td>
-                                <td>Colorado Springs, CA</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Kim Chaiseman</td>
-                                <td>one</td>
-                                <td>2009</td>
-                                <td>Seattle, WA</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Zachary Penmore</td>
-                                <td>three</td>
-                                <td>2014</td>
-                                <td>Tacoma, WA</td>
-                            </tr>
-                            <tr>
-                                <td>13</td>
-                                <td>Amy Fillmore</td>
-                                <td>three</td>
-                                <td>2016</td>
-                                <td>Albany, NY</td>
-                            </tr>
-                            <tr>
-                                <td>14</td>
-                                <td>Franklin Nixon Jr</td>
-                                <td>one</td>
-                                <td>2017</td>
-                                <td>Miami, FL</td>
-                            </tr>
-                            <tr>
-                                <td>15</td>
-                                <td>Carrie Buchanan</td>
-                                <td>one</td>
-                                <td>1999</td>
-                                <td>San Diego, CA</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>Tyler McMann</td>
-                                <td>three</td>
-                                <td>2013</td>
-                                <td>Baltimore, MD</td>
-                            </tr>
-                            <tr>
-                                <td>17</td>
-                                <td>Andrew Wilson</td>
-                                <td>three</td>
-                                <td>2014</td>
-                                <td>Colorado Springs, CO</td>
-                            </tr>
-                            <tr>
-                                <td>18</td>
-                                <td>Charles Grant</td>
-                                <td>two</td>
-                                <td>2009</td>
-                                <td>Houston, TX</td>
-                            </tr>
-                            <tr>
-                                <td>19</td>
-                                <td>Carrie Buchanan</td>
-                                <td>one</td>
-                                <td>1999</td>
-                                <td>San Diego, CA</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>Jack Frost</td>
-                                <td>three</td>
-                                <td>2013</td>
-                                <td>Denver, CO</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                    <div class="row">
-                        <div class="col-12">
-
-                            <ul class="pagination justify-content-end">
-                                <li class="page-item">
-                                    <a class="page-link arrow" href="#/" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#/">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#/">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#/">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link arrow" href="#/" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-lg-6">
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Day</th>
-                                            <th scope="col">Article Name</th>
-                                            <th scope="col">Author</th>
-                                            <th scope="col">Words</th>
-                                            <th scope="col">Shares</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Bootstrap 4 CDN and Starter Template</td>
-                                            <td>Cristina</td>
-                                            <td>913</td>
-                                            <td>2.846</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Bootstrap Grid 4 Tutorial and Examples</td>
-                                            <td>Cristina</td>
-                                            <td>1.434</td>
-                                            <td>3.417</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Bootstrap Flexbox Tutorial and Examples</td>
-                                            <td>1.877</td>
-                                            <td>1.234</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <table class="table table-dark table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Day</th>
-                                            <th scope="col">Article Name</th>
-                                            <th scope="col">Author</th>
-                                            <th scope="col">Words</th>
-                                            <th scope="col">Shares</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Bootstrap 4 CDN and Starter Template</td>
-                                            <td>Cristina</td>
-                                            <td>913</td>
-                                            <td>2.846</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Bootstrap Grid 4 Tutorial and Examples</td>
-                                            <td>Cristina</td>
-                                            <td>1.434</td>
-                                            <td>3.417</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Bootstrap Flexbox Tutorial and Examples</td>
-                                            <td>1.877</td>
-                                            <td>1.234</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p>ooo</p>
+                    Create contact form...
                 </div>
             </div>
         </section>
@@ -304,8 +116,7 @@
 
     <script src="../lib/wow.min.js" type="text/javascript"></script>
     <script src="../lib/bootstrap-4.3.1.min.js" type="text/javascript"></script>
-    <script src="../lib/jquery.filtertable.js" type="text/javascript"></script>
-    <script src="../lib/tablesort.js" type="text/javascript"></script>
+
     <script>
     $(function() {
         $(".preloader").delay(1400).fadeOut();
@@ -389,8 +200,8 @@
     $(function() {
         'use strict'
 
-        $('table.table-sort').tablesort();
-        $('table').filterTable();
+        // $('table.table-sort').tablesort();
+        // $('table').filterTable();
     });
 
     new WOW().init();

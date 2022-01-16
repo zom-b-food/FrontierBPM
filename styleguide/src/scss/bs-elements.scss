@@ -408,11 +408,15 @@ footer {
 		border: 1px solid transparent !important;
 	}
 }
+img.avatar {
+	padding-right:12px;
+}
 #sidebar
 .album {
 	color:$white;
 	padding: .25rem;
 	margin: 0 auto;
+	margin-top:12px;
 	background-color: $secondary-color;
 	border-radius: $border-radius-small;
 	white-space: nowrap;

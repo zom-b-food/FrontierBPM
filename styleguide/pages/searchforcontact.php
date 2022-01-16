@@ -34,13 +34,30 @@
             <div class="row row-offcanvas row-offcanvas-right">
                 <div class="col-3 sidebar-offcanvas" id="sidebar">
                     <div class="box">
-                        <p class="bottom-align"><img src="../dist/img/avatar-small.jpg" />&nbsp;<big>Unknown
-                                Contact</big>
-                        </p>
+                        <div class="row small mt10">
+                            <table class="table-data">
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3" class="avatar">
+                                            <img src="../dist/img/avatar-small.jpg" class="avatar" />
+                                        </td>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Unknown Contact</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="strong">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <div class="album row">
                             <div class="col-3"><i class="fa fa-envelope"></i></div>
                             <div class="col-9">02:22/06.00</div>
                         </div>
+                        <hr class="nomargin" />
                         <div class="row">
                             <span class="strong">Call Details</span>
                         </div>

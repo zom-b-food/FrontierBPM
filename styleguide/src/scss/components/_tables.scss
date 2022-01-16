@@ -143,6 +143,26 @@ th {height:28px !important;}
   }
 }
 
+.table-data { 
+  margin-left:14px;
+  background-color: $white;
+  th,
+  td,
+  thead th {
+    border: none;
+    color: $primary-color;
+    background-color: $white !important;
+    font-size:100%;
+    line-height:12px;
+  }
+  &.table-bordered {
+    border: 0;
+  }
+  td.avatar {
+    width:60px;
+  }
+}
+
 /* filter-table specific styling */
 table {
   width: 100%;
