@@ -32,108 +32,137 @@
                         <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
                     </p>
                 </div>
-                <div class="col-3 sidebar-offcanvas" id="sidebar">
-                    <div class="centered">
-                        <ul class="no-bullet">
-                            <li><a class="btn btn-primary" href="#" role="button">My Work</a></li>
-                            <li><a class="btn btn-primary btn-active" href="#" role="button">Dashboard</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Reports</a></li>
-                            <li><a class="btn btn-primary" href="#" role="button">Tools</a></li>
-                            <li> <a class="btn btn-primary" href="#" role="button">Pulse</a></li>
-                            <li> <a class="btn btn-primary" href="#" role="button">Tags</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="card nopad">
-                        <ul class="nav nav-tabs nav-tabs-primary">
-                            <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#home">
-                                <i class="now-ui-icons objects_umbrella-13"></i> Tab 1
-                            </li>
-                            <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#profile">
-                                <i class="now-ui-icons shopping_cart-simple"></i> Tab 2
-                            </li>
-                            <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#messages">
-                                <i class="now-ui-icons shopping_shop"></i> Tab 3
-                            </li>
-                            <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#settings">
-                                <i class="now-ui-icons ui-2_settings-90"></i> Tab 4
-                            </li>
-                        </ul>
-                        <div class="card-body fixedHeight">
-                            <!-- Tab panes -->
-                            <div class="tab-content nopad">
-                                <div class="tab-pane active" id="home" role="tabpanel">
-                                    <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
-                                        engines, counting receipts, baking bread, hanging laundry, keeping the wheel
-                                        turning. Tradition, not convention, holds us here in Valencia . In the
-                                        valley, the wheel does not turn. We keep it still, anchor it in the beach,
-                                        in the brackish water of Vero bay. </p>
-                                    <h3>Possum</h3>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                        ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                                </div>
-                                <div class="tab-pane" id="profile" role="tabpanel">
-                                    <p> I could watch them glide inches above the sea...inches above the seatop at
-                                        unfathomable speeds. The littleness of the bird, defiant and inimitable
-                                        against the rushing backdrop is equally unfathomable, yet the little bird
-                                        dismisses it without a sense of ego or bravado. Mass and energy, sprinting
-                                        elements of wind and water exist outside the wheel where ambition and
-                                        progress is overruled by freedom and instinct. </p>
-                                    <h3>Tater</h3>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                        ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                                </div>
-                                <div class="tab-pane" id="messages" role="tabpanel">
-                                    <p>I could watch these little birds dance like ice-skating companions whose
-                                        familiar touches have been practiced to extinction. I could observe this
-                                        foreplay of physics, the mating of balance and gravity that is today, at
-                                        this precise moment, more dynamic than ever. And then suddenly comes the
-                                        peace. </p>
-                                    <h3>Sofia</h3>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                        ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                                </div>
-                                <div class="tab-pane" id="settings" role="tabpanel">
-                                    <p> It is like a rest in a musical score when the chorus and the orchestra stops
-                                        for a beat or two and nothing plays but the space: the silent part that
-                                        comes at the end of a foreign film before the credits when it is quiet and
-                                        the last scene freezes upon the screen. I could see and hear that today on
-                                        Tower Hill if I chose to. It is the last scene when serenity takes over and
-                                        the recapitulation finally and really does surrender."
-                                    </p>
-                                    <h3>Chatbot</h3>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                        ac cursus
-                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                        risus. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                                </div>
+
+                <div class="col-12" id="main-tabs"">
+                    <div class=" card nopad">
+                    <ul class="nav nav-tabs nav-tabs-primary">
+                        <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard">
+                            <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
+                            <i class="now-ui-icons shopping_cart-simple"></i> My Work
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
+                            <i class="now-ui-icons shopping_shop"></i> Reports
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Tools
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#pulse">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Pulse
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tags">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Tags
+                        </li>
+                    </ul>
+                    <div class="card-body fixedHeight">
+                        <!-- Tab panes -->
+                        <div class="tab-content nopad">
+                            <div class="tab-pane active" id="dashboard" role="tabpanel">
+                                <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
+                                    engines, counting receipts, baking bread, hanging laundry, keeping the wheel
+                                    turning. Tradition, not convention, holds us here in Valencia . In the
+                                    valley, the wheel does not turn. We keep it still, anchor it in the beach,
+                                    in the brackish water of Vero bay. </p>
+                                <h3>Possum</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            </div>
+                            <div class="tab-pane" id="work" role="tabpanel">
+                                <p> I could watch them glide inches above the sea...inches above the seatop at
+                                    unfathomable speeds. The littleness of the bird, defiant and inimitable
+                                    against the rushing backdrop is equally unfathomable, yet the little bird
+                                    dismisses it without a sense of ego or bravado. Mass and energy, sprinting
+                                    elements of wind and water exist outside the wheel where ambition and
+                                    progress is overruled by freedom and instinct. </p>
+                                <h3>Tater</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            </div>
+                            <div class="tab-pane" id="reports" role="tabpanel">
+                                <p>I could watch these little birds dance like ice-skating companions whose
+                                    familiar touches have been practiced to extinction. I could observe this
+                                    foreplay of physics, the mating of balance and gravity that is today, at
+                                    this precise moment, more dynamic than ever. And then suddenly comes the
+                                    peace. </p>
+                                <h3>Sofia</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            </div>
+                            <div class="tab-pane" id="tools" role="tabpanel">
+                                <p>I could watch these little birds dance like ice-skating companions whose
+                                    familiar touches have been practiced to extinction. I could observe this
+                                    foreplay of physics, the mating of balance and gravity that is today, at
+                                    this precise moment, more dynamic than ever. And then suddenly comes the
+                                    peace. </p>
+                                <h3>Sofia</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            </div>
+                            <div class="tab-pane" id="pulse" role="tabpanel">
+                                <p> It is like a rest in a musical score when the chorus and the orchestra stops
+                                    for a beat or two and nothing plays but the space: the silent part that
+                                    comes at the end of a foreign film before the credits when it is quiet and
+                                    the last scene freezes upon the screen. I could see and hear that today on
+                                    Tower Hill if I chose to. It is the last scene when serenity takes over and
+                                    the recapitulation finally and really does surrender."
+                                </p>
+                                <h3>Chatbot</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            </div>
+                            <div class="tab-pane" id="tags" role="tabpanel">
+                                <p> It is like a rest in a musical score when the chorus and the orchestra stops
+                                    for a beat or two and nothing plays but the space: the silent part that
+                                    comes at the end of a foreign film before the credits when it is quiet and
+                                    the last scene freezes upon the screen. I could see and hear that today on
+                                    Tower Hill if I chose to. It is the last scene when serenity takes over and
+                                    the recapitulation finally and really does surrender."
+                                </p>
+                                <h3>Chatbot</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                                    ac cursus
+                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                    risus. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="container wow fadeInUp">
