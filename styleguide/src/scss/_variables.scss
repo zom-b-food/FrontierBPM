@@ -29,16 +29,16 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$primary-color:#163ba3;
-$secondary-color:#af052a;
-$tertiary-color:#d3ca9a;
-$accent-color: #77d2ee;
+$primary-color:#2b5b88;
+$secondary-color:#ecdb8c;
+$tertiary-color:#b04f64;
+$accent-color: #61bcd8;
 
-$primary-color-opacity:        rgba(22, 59, 163, .6) !default;
-$primary-color-fade:        rgba(22, 59, 163, .86) !default;
-$secondary-color-opacity:        rgba(175, 5, 42, .6) !default;
-$tertiary-color-opacity:        rgba(211, 202, 154, .6) !default;
-$accent-color-opacity:      rgba(119, 210, 238, .6) !default;
+$primary-color-opacity:        rgba(52, 54, 59, 0.6) !default;
+$primary-color-fade:        $primary-color-opacity !default;
+$secondary-color-opacity:        rgba(236, 219, 140, .6) !default;
+$tertiary-color-opacity:        rgba(176, 79, 100, .6) !default;
+$accent-color-opacity:      rgba(97, 188, 216, .6) !default;
 
 $primary-color-lighten:       lighten($primary-color, 50%) !default;
 $secondary-color-lighten:     lighten($secondary-color, 50%) !default;
@@ -60,7 +60,8 @@ $seateal: #3f5054;
 $moonblue: #d0d8db;
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $black !default;
+$text-color:                $body-color;
 
 $link-color:                $tertiary-color !default;
 $link-decoration:           none !default;
@@ -156,7 +157,7 @@ $accordion-border:           $secondary-color;
 
 // Fonts
 //
-$font-size-base:               14px;  // 1rem !default; - Assumes the browser default, typically `16px`
+$font-size-base:               12.5px;  // 1rem !default; - Assumes the browser default, typically `16px`
 $font-size-h1:                 $font-size-base * 1.50 !default;
 $font-size-h2:                 $font-size-base * 1.25 !default;
 $font-size-h3:                 $font-size-base * 1.15 !default;

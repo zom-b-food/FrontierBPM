@@ -1181,3 +1181,44 @@ White Form Style
 .white-form input[type=search]:focus:not([readonly])+label {
     color: #fff !important;
 }
+
+ .btn-primary{
+        color: $white;
+
+        &:hover,
+        &:focus,
+        &:active{
+          color: $primary-states-color;
+        }
+      }
+
+.btn-secondary{
+        color: $black;
+
+        &:hover,
+        &:focus,
+        &:active{
+          color: $secondary-states-color;
+        }
+      }
+
+.btn-tertiary{
+        color: $white;
+
+        &:hover,
+        &:focus,
+        &:active{
+          color: $tertiary-states-color;
+        }
+      }
+
+.btn-accent{
+        color: $black;
+
+        &:hover,
+        &:focus,
+        &:active{
+          color: $accent-states-color;
+        }
+      }
+      

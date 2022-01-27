@@ -1,8 +1,8 @@
 @mixin popover-color($color, $text-color) {
     background-color: $color;
 
-    .popover-body{
-        color: $text-color;
+    .popover-body {
+        color: $black;
     }
 
 
@@ -23,7 +23,7 @@
     }
 
     .popover-header{
-        color: $text-color;
+        color: $black;
         opacity: .6;
     }
 }

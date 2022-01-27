@@ -644,7 +644,7 @@ img.avatar {
 	}
 }
 .box {
-	border:1px solid $tertiary-color-opacity;
+	border:1px solid $secondary-color-opacity;
 	border-radius: $border-radius-small;
 	padding:20px;
 }
@@ -673,11 +673,11 @@ img.avatar {
 .dropdown-content a {
     text-decoration: none;
     display: block;
-	color:$white;
+	color:$black;
 	padding:6px;
 }
 
-.dropdown-content a:hover {background-color: $white; color: $secondary-color-opacity;}
+.dropdown-content a:hover {background-color: $white; color: $black;}
 
 .dropdown:hover .dropdown-content {
     display: block;
