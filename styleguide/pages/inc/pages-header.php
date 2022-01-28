@@ -1,7 +1,8 @@
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
      <div class="container">
-         <a class="btn btn-secondary home" href="javascript:history.back()" role="button">HOME</a>
+         <a class="white" href="javascript:history.back()" role="button"><i
+                 class="fa fa-home fa-3x hvr-icon"></i>LOGO</a>
 
          <div class="collapse navbar-collapse justify-content-end" id="navigation">
              <ul class="navbar-nav" id="anchor-menu">

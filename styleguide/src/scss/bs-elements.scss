@@ -35,6 +35,10 @@ body {
 }
 header {
 	margin: 0 auto;
+	height:70px;
+}
+#dashboard-content {
+	margin-top:200px;
 }
 section {
 	padding: 50px 0 25px 0;
@@ -280,6 +284,10 @@ footer {
 
 ul.pagination li {
 	margin-right:2px;
+}
+
+.white {
+	color:$white !important;
 }
 
 #icons-row {

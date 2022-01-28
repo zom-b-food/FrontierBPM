@@ -189,12 +189,20 @@
     }
   }
 
+  
+
   &.navbar-transparent{
     background-color: $transparent-bg !important;
     box-shadow: none;
     color: $white;
     padding-top: 20px;
   }
+
+  &.navbar-dashboard {
+    @extend .navbar-transparent;
+      background-color: $primary-color !important;
+    }
+  
 
   &.bg-white:not(.navbar-transparent){
     a:not(.dropdown-item){

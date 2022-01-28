@@ -17,26 +17,12 @@
     </script>
     <header class="bg-primary">
         <!-- Navbar -->
-        <?php include '../pages/inc/pages-header.php'; ?>
-        <!-- End Navbar -->
-    </header>
-    <main role="main">
-        <section id="top" class="container noborder">
-            <h1>Welcome to Your Dashboard</h1>
-            <p>Lorum ipsum blada...</p>
-        </section>
-        <section id="tabs-cards" class="container wow fadeInUp noborder">
-            <div class="row row-offcanvas row-offcanvas-right">
-                <div class="col-12">
-                    <p class="float-right d-md-none">
-                        <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
-                    </p>
-                </div>
-
-                <div class="col-12" id="main-tabs"">
-                    <div class=" card nopad">
+        <div class="row">
+            <div class="col-1">logo</div>
+            <div class="col-10" id="main-tabs">
+                <div class="bob">
                     <ul class="nav nav-tabs nav-tabs-primary">
-                        <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard">
+                        <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
                             <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
@@ -48,17 +34,17 @@
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
                             <i class="now-ui-icons ui-2_settings-90"></i> Tools
                         </li>
-                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#pulse">
-                            <i class="now-ui-icons ui-2_settings-90"></i> Pulse
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Search
                         </li>
-                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tags">
-                            <i class="now-ui-icons ui-2_settings-90"></i> Tags
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#add">
+                            <i class="now-ui-icons ui-2_settings-90"></i> New +
                         </li>
                     </ul>
-                    <div class="card-body fixedHeight">
+                    <div class="card-body">
                         <!-- Tab panes -->
                         <div class="tab-content nopad">
-                            <div class="tab-pane active" id="dashboard" role="tabpanel">
+                            <div class="tab-pane active" id="dashboard-panel" role="tabpanel">
                                 <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
                                     engines, counting receipts, baking bread, hanging laundry, keeping the wheel
                                     turning. Tradition, not convention, holds us here in Valencia . In the
@@ -92,79 +78,27 @@
                                     porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                             </div>
                             <div class="tab-pane" id="reports" role="tabpanel">
-                                <p>I could watch these little birds dance like ice-skating companions whose
-                                    familiar touches have been practiced to extinction. I could observe this
-                                    foreplay of physics, the mating of balance and gravity that is today, at
-                                    this precise moment, more dynamic than ever. And then suddenly comes the
-                                    peace. </p>
-                                <h3>Sofia</h3>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                    ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                                <p>reports </p>
                             </div>
                             <div class="tab-pane" id="tools" role="tabpanel">
-                                <p>I could watch these little birds dance like ice-skating companions whose
-                                    familiar touches have been practiced to extinction. I could observe this
-                                    foreplay of physics, the mating of balance and gravity that is today, at
-                                    this precise moment, more dynamic than ever. And then suddenly comes the
-                                    peace. </p>
-                                <h3>Sofia</h3>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                    ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                                <p>tools </p>
                             </div>
-                            <div class="tab-pane" id="pulse" role="tabpanel">
-                                <p> It is like a rest in a musical score when the chorus and the orchestra stops
-                                    for a beat or two and nothing plays but the space: the silent part that
-                                    comes at the end of a foreign film before the credits when it is quiet and
-                                    the last scene freezes upon the screen. I could see and hear that today on
-                                    Tower Hill if I chose to. It is the last scene when serenity takes over and
-                                    the recapitulation finally and really does surrender."
-                                </p>
-                                <h3>Chatbot</h3>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                    ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <div class="tab-pane" id="search" role="tabpanel">
+                                <p> search </p>
                             </div>
-                            <div class="tab-pane" id="tags" role="tabpanel">
-                                <p> It is like a rest in a musical score when the chorus and the orchestra stops
-                                    for a beat or two and nothing plays but the space: the silent part that
-                                    comes at the end of a foreign film before the credits when it is quiet and
-                                    the last scene freezes upon the screen. I could see and hear that today on
-                                    Tower Hill if I chose to. It is the last scene when serenity takes over and
-                                    the recapitulation finally and really does surrender."
-                                </p>
-                                <h3>Chatbot</h3>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                                    ac cursus
-                                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                    risus. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                    porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <div class="tab-pane" id="add" role="tabpanel">
+                                <p> add + </p>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
+            <div class="col-1">icons</div>
+        </div>
+        <!-- End Navbar -->
+    </header>
+    <main role="main" id="dashboard-content">
         <section class="container wow fadeInUp">
             <div class="card">
                 <h3>My Work</h3>
