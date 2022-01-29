@@ -19,7 +19,13 @@
     color: $nav-link-disabled-color;
   }
 }
-
+ul.nav-tabs > li.nav-link {
+	cursor: pointer;
+	color: $secondary-color;
+	&:hover {
+		border: 1px solid transparent !important;
+	}
+}
 .nav-link.active {
   border-radius:$nav-curved-border-radius !important;
 }
@@ -201,6 +207,7 @@
   &.navbar-dashboard {
     @extend .navbar-transparent;
       background-color: $primary-color !important;
+     
     }
   
 

@@ -245,7 +245,9 @@ small, .small-txt * {
     font-size: 75%;
 }
 
-
+.text-black {
+  color:$black;
+}
 
 a{
     color: $accent-color;

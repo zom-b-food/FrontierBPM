@@ -1,76 +1,81 @@
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
-     <a class="white" href="javascript:history.back()" role="button"><i class="fa fa-home fa-3x hvr-icon"></i>LOGO</a>
-     <div class="container">
-         <div class="collapse navbar-collapse justify-content-end" id="navigation">
-             <ul class="navbar-nav" id="anchor-menu">
-                 <li class="nav-item strong" style="padding-top:8px;">
-                     PatientFocus
-                 </li>
-                 <li class="nav-item">
-                     <div class="dropdown">
-                         <button class="btn btn-secondary top">+New</button>
-                         <div class="dropdown-content">
-                             <a href="#">Phone Call</a>
-                             <a href="#">Task</a>
-                             <a href="#">Contact</a>
-                         </div>
-                     </div>
+  <div class="row">
+      <div class="col-1 txt-white"><a href="javascript:history.back()"><img class="top-logo"
+                  src="../dist/img/logo.jpg" /></a>
+      </div>
+      <div class="col-10" id="main-tabs">
+          <ul class="nav nav-tabs nav-tabs-primary">
+              <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
+                  <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
+              </li>
+              <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
+                  <i class="now-ui-icons business_bulb-63"></i> My Work
+              </li>
+              <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
+                  <i class="now-ui-icons objects_key-25"></i> Reports
+              </li>
+              <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
+                  <i class="now-ui-icons ui-2_settings-90"></i> Tools
+              </li>
+              <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
+                  <i class="now-ui-icons location_world"></i> Search
+              </li>
+              <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#add">
+                  <i class="now-ui-icons gestures_tap-01"></i> New +
+              </li>
+          </ul>
+          <div class="card nopad">
+              <div class="card-body txt-black">
+                  <!-- Tab panes -->
+                  <div class="tab-content nopad">
+                      <div class="tab-pane active" id="dashboard-panel" role="tabpanel">
+                          <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
+                              engines, counting receipts, baking bread, hanging laundry, keeping the wheel
+                              turning. Tradition, not convention, holds us here in Valencia . In the
+                              valley, the wheel does not turn. We keep it still, anchor it in the beach,
+                              in the brackish water of Vero bay. </p>
+                          <h3>Possum</h3>
+                          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                              commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                              risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                              ac cursus
+                              commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                              risus. Etiam
+                              porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                              porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                      </div>
+                      <div class="tab-pane" id="work" role="tabpanel">
+                          <p> I could watch them glide inches above the sea...inches above the seatop at
+                              unfathomable speeds. The littleness of the bird, defiant and inimitable
+                              against the rushing backdrop is equally unfathomable, yet the little bird
+                              dismisses it without a sense of ego or bravado. Mass and energy, sprinting
+                              elements of wind and water exist outside the wheel where ambition and
+                              progress is overruled by freedom and instinct. </p>
+                          <h3>Tater</h3>
+                          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                              commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                              risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+                              ac cursus
+                              commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                              risus. Etiam
+                              porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                              porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                      </div>
+                      <div class="tab-pane" id="reports" role="tabpanel">
+                          <p>reports </p>
+                      </div>
+                      <div class="tab-pane" id="tools" role="tabpanel">
+                          <p>tools </p>
+                      </div>
+                      <div class="tab-pane" id="search" role="tabpanel">
+                          <p> search </p>
+                      </div>
+                      <div class="tab-pane" id="add" role="tabpanel">
+                          <p> add + </p>
+                      </div>
 
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="LinkedIn Profile" data-placement="bottom"
-                         href="https://www.linkedin.com/in/sassmaster/" target="_blank">
-                         <i class="fa fa-linkedin"></i>
-                         <p class="d-lg-none d-xl-none">LinkedIn</p>
-                     </a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="My Github" data-placement="bottom"
-                         href="https://github.com/zom-b-food" target="_blank">
-                         <i class="fa fa-github-square"></i>
-                         <p class="d-lg-none d-xl-none">Github</p>
-                     </a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="My Github" data-placement="bottom"
-                         href="https://github.com/zom-b-food" target="_blank">
-                         <i class="fa fa-github-square"></i>
-                         <p class="d-lg-none d-xl-none">Github</p>
-                     </a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="My Github" data-placement="bottom"
-                         href="https://github.com/zom-b-food" target="_blank">
-                         <i class="fa fa-github-square"></i>
-                         <p class="d-lg-none d-xl-none">Github</p>
-                     </a>
-                 </li>
-                
-             </ul>
-         </div>
-     </div>
- </nav>
- <!-- End Navbar -->
-
- <!-- Sart Modal -->
- <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-     <div class="modal-dialog">
-         <div class="modal-content">
-             <div class="modal-header justify-content-center">
-                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                     <i class="now-ui-icons ui-1_simple-remove"></i>
-                 </button>
-                 <h4 class="title title-up">Add Contact</h4>
-             </div>
-             <div class="modal-body">
-                 Add form here
-             </div>
-             <div class="modal-footer">
-                 <button type="button" class="btn btn-primary">Add Contact</button>
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-             </div>
-         </div>
-     </div>
- </div>
- <!--  End Modal -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-1 txt-white">icons</div>
+  </div>
