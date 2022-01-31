@@ -36,17 +36,24 @@ body {
 header {
 	margin: 0 auto;
 	height:69px;
+	padding-top:10px;
 }
 #dashboard-content {
-	margin-top:280px;
+	margin-top:480px;
 }
 section {
 	padding: 50px 0 25px 0;
 	border-top: 1px solid $accent-color-opacity;
 	width:90% !important;
+	margin:0 auto;
 	&.noborder {
 		border-top:none;
 	}
+}
+section.navigation {
+	@extend section;
+	padding:0;
+	border:none;
 }
 a {
 	color: $link-color;
@@ -251,11 +258,11 @@ footer {
 }
 
 img.top-logo {
-	margin-top:5px;
+	margin-top:0;
 	margin-left:15px;
 	margin-right:10px;
-	height:auto;
-	width:auto;
+	height:41px;
+	width:100px;
 }
 
 #navbar-full {
@@ -663,6 +670,7 @@ img.avatar {
 .dropdown {
     position: relative;
     display: inline-block;
+	z-index: 999;
 }
 
 .dropdown-content {

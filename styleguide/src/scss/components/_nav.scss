@@ -21,6 +21,7 @@
 }
 ul.nav-tabs > li.nav-link {
 	cursor: pointer;
+  height: 40px;
 	color: $secondary-color;
 	&:hover {
 		border: 1px solid transparent !important;

@@ -5,7 +5,7 @@
 
 .nav-tabs {
     border: 0;
-    padding: $padding-large-vertical $padding-base-horizontal;
+    padding: 5px;
 
     > .nav-item{
         > .nav-link{
@@ -16,7 +16,7 @@
             border: 1px solid $transparent-bg;
             border-radius: $btn-curved-radius;
             font-size: $font-size-base;
-            padding: $padding-btn-vertical $padding-round-horizontal;
+            padding: 5px;
             line-height: $line-height-general;
 
             &:hover {
