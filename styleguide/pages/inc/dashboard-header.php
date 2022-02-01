@@ -5,8 +5,8 @@
               <li>
                   <a href="javascript:history.back()"><img class="top-logo" src="../dist/img/logo.jpg" /></a>
               </li>
-              <li>
-                  &nbsp;
+              <li class="header-spacer">
+                  optional spacer
               </li>
               <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
                   <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
@@ -33,11 +33,18 @@
                       </div>
                   </div>
               </li>
-              <li style="margin-right:20%;">
-
-                  icons
-
-
+              <li class="nav-item nav-link nojump">
+                  <p class="border-spacer">&nbsp;</p>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
+                      <i class="fa fa-user"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
+                      <i class="fa fa-cog"></i>
+                  </a>
               </li>
           </ul>
           <section class="navigation">
