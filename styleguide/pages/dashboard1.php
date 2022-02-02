@@ -112,31 +112,30 @@
                                     <p></p>
                                 </div>
                             </div>
-
                         </section>
+
                         <section class="container wow fadeInUp noborder">
-                            <div class="row">
-                                <div class="col-6">
-                                    <a href="#" class="big">My Work</a>
-                                    <a href="#" class="big" style="float:right">My Completed Work</a>
-                                    <div class="form-group">
-                                        <input type="text" value="" placeholder="Search" class="form-control">
-                                    </div>
-                                    <div class="box">
-                                        <p>This is the My Work table...</p>
-                                        <p></p>
-                                    </div>
+                            <div class=row">
+                                <a href="#" class="big">My Work</a>
+                                <a href="#" class="big" style="float:right">My Completed Work</a>
+                                <div class="form-group">
+                                    <input type="text" value="" placeholder="Search" class="form-control">
                                 </div>
-                                <div class="col-6">
-                                    <a href="#" class="big">My Team</a>
-                                    <a href="#" class="big" style="float:right">Team Workbasket</a>
-                                    <div class="form-group">
-                                        <input type="text" value="" placeholder="Search" class="form-control">
-                                    </div>
-                                    <div class="box">
-                                        <p>This is the My Team table... </p>
-                                        <p></p>
-                                    </div>
+                                <div class="box">
+                                    <p>This is the My Completed Work table... </p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class=row">
+                                <a href="#" class="big">My Team</a>
+                                <a href="#" class="big" style="float:right">Team Workbasket</a>
+                                <div class="form-group">
+                                    <input type="text" value="" placeholder="Search" class="form-control">
+                                </div>
+                                <div class="box">
+                                    <p>This is the My Team table... </p>
+                                    <p></p>
                                 </div>
                             </div>
                         </section>
