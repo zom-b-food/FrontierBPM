@@ -38,8 +38,13 @@ header {
 	height:69px;
 	padding-top:10px;
 }
+header.styleguide {
+	@extend header;
+	padding-top:0;
+}
 #dashboard-content {
-	margin-top:480px;
+	position:relative;
+	margin-top:820px; //height of image above
 }
 section {
 	padding: 50px 0 25px 0;
@@ -141,7 +146,11 @@ p.border-spacer {
 	width:10px; 
 	border-left:1px solid white;
 }
-.card.narrow, .container.narrow {
+.card.narrow {
+	width:90%;
+	height:85vh;
+}
+.container.narrow {
 	width:90%;
 }
 footer {
@@ -184,6 +193,7 @@ footer {
 }
 #palette {
 	@include full-width();
+	margin-top:90vh;
 }
 .page-header-hero {
 	height: 82vh;

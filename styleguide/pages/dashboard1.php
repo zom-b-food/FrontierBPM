@@ -396,7 +396,12 @@
         <!-- End Navbar -->
     </header>
     <main role="main" id="dashboard-content">
-
+        <section class="container wow fadeInUp noborder">
+            <div class="col-12">
+                <h2>Lorum Ipsem...</h2>
+                <p>Something should go here to balance the page.</p>
+            </div>
+        </section>
     </main>
 
     <?php include '../pages/inc/footer.php'; ?>

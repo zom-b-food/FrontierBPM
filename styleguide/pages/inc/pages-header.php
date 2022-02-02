@@ -10,7 +10,7 @@
                      PatientFocus
                  </li>
                  <li class="nav-item">
-                     <div class="dropdown">
+                     <div class="dropdown mt7">
                          <button class="btn btn-secondary top">+New</button>
                          <div class="dropdown-content">
                              <a href="#">Phone Call</a>

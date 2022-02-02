@@ -15,7 +15,7 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header>
+    <header class="styleguide">
         <?php include '../pages/inc/home-header.php'; ?>
     </header>
     <main role="main">
