@@ -44,7 +44,6 @@ header {
 section {
 	padding: 50px 0 25px 0;
 	border-top: 1px solid $accent-color-opacity;
-	width:90% !important;
 	margin:0 auto;
 	&.noborder {
 		border-top:none;
@@ -141,6 +140,9 @@ li.header-spacer {
 p.border-spacer {
 	width:10px; 
 	border-left:1px solid white;
+}
+.card.narrow, .container.narrow {
+	width:90%;
 }
 footer {
 	position: absolute;
