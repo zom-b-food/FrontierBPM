@@ -49,7 +49,7 @@
                         <div class="dropdown">
                             <button class="btn btn-secondary top">+New</button>
                             <div class="dropdown-content">
-                                <a href="#">Phone Call</a>
+                                <a href="searchforcontact.php">Phone Call</a>
                                 <a href="#">Task</a>
                                 <a href="#">Contact</a>
                             </div>
