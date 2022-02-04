@@ -15,63 +15,65 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header class="bg-primary">
-        <!-- Navbar -->
-        <div class="row">
-            <div class="col-1">
-                <ul class="nav nav-tabs nav-tabs-primary">
-                    <li>
-                        <a href="javascript:history.back()"><img class="top-logo" src="../dist/img/logo.jpg" /></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-10" id="main-tabs">
-                <ul class="nav nav-tabs nav-tabs-primary">
-                    <li class="header-spacer">
-                        optional spacer
-                    </li>
-                    <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
-                        <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
-                    </li>
-                    <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
-                        <i class="now-ui-icons business_bulb-63"></i> My Work
-                    </li>
-                    <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
-                        <i class="now-ui-icons objects_key-25"></i> Reports
-                    </li>
-                    <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
-                        <i class="now-ui-icons ui-2_settings-90"></i> Tools
-                    </li>
-                    <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
-                        <i class="now-ui-icons location_world"></i> Search
-                    </li>
-                    <li class="nav-item nav-link nojump">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary top">+New</button>
-                            <div class="dropdown-content">
-                                <a href="searchforcontact.php">Phone Call</a>
-                                <a href="#">Task</a>
-                                <a href="#">Contact</a>
+    <main class="bg-white">
+        <header class="bg-primary">
+            <!-- Navbar -->
+            <div class="row">
+                <div class="col-1">
+                    <ul class="nav nav-tabs nav-tabs-primary">
+                        <li>
+                            <a href="javascript:history.back()"><img class="top-logo" src="../dist/img/logo.jpg" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10" id="main-tabs">
+                    <ul class="nav nav-tabs nav-tabs-primary">
+                        <li class="header-spacer">
+                            optional spacer
+                        </li>
+                        <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
+                            <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
+                            <i class="now-ui-icons business_bulb-63"></i> My Work
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
+                            <i class="now-ui-icons objects_key-25"></i> Reports
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
+                            <i class="now-ui-icons ui-2_settings-90"></i> Tools
+                        </li>
+                        <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
+                            <i class="now-ui-icons location_world"></i> Search
+                        </li>
+                        <li class="nav-item nav-link nojump">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary top">+New</button>
+                                <div class="dropdown-content">
+                                    <a href="searchforcontact.php">Phone Call</a>
+                                    <a href="#">Task</a>
+                                    <a href="#">Contact</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <ul class="nav nav-tabs nav-tabs-primary">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
+                                <i class="fa fa-cog"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-1">
-                <ul class="nav nav-tabs nav-tabs-primary">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
-                            <i class="fa fa-user"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/zom-b-food" target="_blank">
-                            <i class="fa fa-cog"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </header>
         <div class="card narrow mt20">
             <div class="card-body txt-black">
                 <!-- Tab panes -->
@@ -394,14 +396,6 @@
         </div>
 
         <!-- End Navbar -->
-    </header>
-    <main role="main" id="dashboard-content">
-        <section class="container wow fadeInUp noborder">
-            <div class="col-12">
-                <h2>Lorum Ipsem...</h2>
-                <p>Something should go here to balance the page.</p>
-            </div>
-        </section>
     </main>
 
     <?php include '../pages/inc/footer.php'; ?>
