@@ -20,12 +20,9 @@
         <?php include '../pages/inc/pages-header.php'; ?>
         <!-- End Navbar -->
     </header>
-    <main role="main" id="main">
-        <section id="top" class="container noborder">
-            <h1>Create a New Contact</h1>
-            <p>Lorum ipsum blada...</p>
-        </section>
-        <section id="tabs-cards" class="container wow fadeInUp noborder">
+    <main role="main">
+      
+        <section id="tabs-cards" class="container wow fadeInUp noborder mt70">
             <div class="row row-offcanvas row-offcanvas-right">
                 <div class="col-12">
                     <p class="float-right d-md-none">

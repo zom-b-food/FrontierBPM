@@ -20,12 +20,9 @@
         <?php include '../pages/inc/pages-header.php'; ?>
         <!-- End Navbar -->
     </header>
-    <main role="main" id="main">
-        <section id="top" class="container noborder">
-            <h1>Search For Contact</h1>
-            <p>Lorum ipsum blada...</p>
-        </section>
-        <section id="search" class="container wow fadeInUp noborder">
+    <main role="main">
+
+        <section id="search" class="container wow fadeInUp noborder mt70">
             <div class="col-12">
                 <p class="float-right d-md-none">
                     <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
