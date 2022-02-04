@@ -46,6 +46,17 @@ header.styleguide {
 	position:relative;
 	margin-top:820px; //height of image above
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:999;
+  border-bottom:6px solid $tertiary-color;
+}
+#main {
+	margin-top:80px;
+	
+}
 section {
 	padding: 50px 0 25px 0;
 	border-top: 1px solid $accent-color-opacity;

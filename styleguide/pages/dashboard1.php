@@ -16,7 +16,7 @@
     });
     </script>
     <main class="bg-white">
-        <header class="bg-primary">
+        <header class="bg-primary sticky">
             <!-- Navbar -->
             <div class="row">
                 <div class="col-1">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </header>
-        <div class="card narrow mt20">
+        <div class="card narrow mt100">
             <div class="card-body txt-black">
                 <!-- Tab panes -->
                 <div class="tab-content nopad">

@@ -15,12 +15,12 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <header class="bg-primary">
+    <header class="bg-primary sticky">
         <!-- Navbar -->
         <?php include '../pages/inc/pages-header.php'; ?>
         <!-- End Navbar -->
     </header>
-    <main role="main">
+    <main role="main" id="main">
         <section id="top" class="container noborder">
             <h1>Search For Contact</h1>
             <p>Lorum ipsum blada...</p>
