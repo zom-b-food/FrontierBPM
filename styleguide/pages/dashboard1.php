@@ -15,7 +15,7 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <main class="bg-white">
+    <main class="bg-white hero">
         <header class="bg-primary sticky">
             <!-- Navbar -->
             <div class="row">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </header>
-        <div class="card narrow mt100">
+        <div class="card narrow mt100 opacity">
             <div class="card-body txt-black">
                 <!-- Tab panes -->
                 <div class="tab-content nopad">

@@ -1,11 +1,10 @@
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
-     <div class="container">
+     <div class="row container">
          <a class="white" href="javascript:history.back()" role="button"><i
                  class="fa fa-home fa-3x hvr-icon"></i>&nbsp;DASHBOARD</a>
-
          <div class="collapse navbar-collapse justify-content-end" id="navigation">
-             <ul class="navbar-nav" id="anchor-menu">
+             <ul class="navbar-nav">
                  <li class="nav-item strong" style="padding-top:8px;">
                      PatientFocus
                  </li>
@@ -49,27 +48,22 @@
                          <p class="d-lg-none d-xl-none">Github</p>
                      </a>
                  </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="My Github" data-placement="bottom"
-                         href="https://github.com/zom-b-food" target="_blank">
-                         <i class="fa fa-github-square"></i>
-                         <p class="d-lg-none d-xl-none">Github</p>
-                     </a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" rel="tooltip" title="My Github" data-placement="bottom"
-                         href="https://github.com/zom-b-food" target="_blank">
-                         <i class="fa fa-github-square"></i>
-                         <p class="d-lg-none d-xl-none">Github</p>
-                     </a>
-                 </li>
+
              </ul>
          </div>
      </div>
+
  </nav>
  <!-- End Navbar -->
- <div class="page-header-small">
-     l
+ <div class="row bg-tertiary mt50">
+     <div class="container">
+         <div class="list-inline">
+             <a href="#" class="list-inline-item">First item</a>
+             <a href="#" class="list-inline-item">Secound item</a>
+             <a href="#" class="list-inline-item">Third item</a>
+         </div>
+
+     </div>
  </div>
  <!-- Sart Modal -->
  <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
