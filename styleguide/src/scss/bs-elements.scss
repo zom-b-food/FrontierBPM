@@ -163,7 +163,7 @@ p.border-spacer {
 	height:90vh;
 }
 .opacity {
-	background-color: rgba(255,255,255,.5);
+	background-color: rgba(255,255,255,.2);
 }
 .container.narrow {
 	width:90%;
@@ -703,9 +703,23 @@ img.avatar {
 .box {
 	border:1px solid $secondary-color-opacity;
 	border-radius: $border-radius-small;
-	padding:20px;
+	padding:16px;
+	margin: 0 10px !important;
+	&.middle {
+		width:88%;
+	}
 }
-
+.album {
+	border:1px solid $secondary-color-opacity;
+	border-radius: $border-radius-small;
+	background-color: $album-bg;
+	padding:16px;
+	margin-left: 20px !important;
+	&.small {
+		width:250px;
+		margin:0 auto;
+	}
+}
 .colorbg {
 	background-color: $accent-color;
 }

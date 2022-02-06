@@ -81,22 +81,69 @@
                     <div class="tab-pane active" id="dashboard-panel" role="tabpanel">
                         <h2>Dashboard</h2>
                         <section class="container wow fadeInUp">
-                            <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
-                                engines, counting receipts, baking bread, hanging laundry, keeping the wheel
-                                turning. Tradition, not convention, holds us here in Valencia . In the
-                                valley, the wheel does not turn. We keep it still, anchor it in the beach,
-                                in the brackish water of Vero bay. </p>
-                            <h3>Possum</h3>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
-                                cursus
-                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                                tellus
-                                ac cursus
-                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-                                risus. Etiam
-                                porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
-                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>"Everywhere but in Valencia people are mowing lawns, planting fences, tuning
+                                        engines, counting receipts, baking bread, hanging laundry, keeping the wheel
+                                        turning. Tradition, not convention, holds us here in Valencia . In the
+                                        valley, the wheel does not turn. We keep it still, anchor it in the beach,
+                                        in the brackish water of Vero bay. Donec id elit non mi porta gravida at eget
+                                        metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                                        ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                                        euismod. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+                                        Donec sed odio dui.</p>
+                                </div>
+                                <div class="col-6">
+                                    <h3>Possum</h3>
+                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                                        cursus
+                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                        risus. Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                                        tellus
+                                        ac cursus
+                                        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                                        risus. Etiam
+                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. Etiam
+                                        porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                                </div>
+                            </div>
+                            <p>&nbsp;</p>
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="album">
+                                        <h2>Widget 1</h2>
+                                        <img src="../dist/img/w-blue.png" />
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="album">
+                                        <h2>Widget 2</h2>
+                                        <img src="../dist/img/w-yellow.png" />
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="album">
+                                        <h2>Widget 3</h2>
+                                        <img src="../dist/img/w-red.png" />
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="album bg-primary">
+                                        <h2>New Feature</h2>
+
+                                        <p>Primary medical care for patients of all ages. Caring for you and helping you
+                                            stay healthy with regular check-ups and education.</p>
+                                        <ul class="ml20">
+                                            <li>ABC Takes 1</li>
+                                            <li>No FEES</li>
+                                            <li>Resources for Life</li>
+                                            <li>More Cheese</li>
+                                        </ul>
+                                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                            fermentum massa justo sit amet risus.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                     </div>
                     <div class="tab-pane" id="work" role="tabpanel">

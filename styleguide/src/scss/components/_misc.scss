@@ -57,6 +57,7 @@
   color: $cream !important;
   background-color: $primary-color-opacity !important;
 }
+.ml20 {margin-left:20px;}
 .mt7 {margin-top:7px;}
 .mt10 {margin-top:10px;}
 .mt20 {margin-top:20px;}
@@ -131,6 +132,7 @@
 
 .bg-primary{
   background-color: $primary-color !important;
+  color:$white;
 }
 
 .bg-primary-fade {
@@ -205,13 +207,12 @@ nav.top {
   float:right !important;
 }
 .centered {
-  margin:0 auto;
   text-align: center;
 }
-.centered {
+.middle {
 	margin: 0 auto;
-	text-align: center;
 }
+
 .txt-white {
   color:$white;
 }
