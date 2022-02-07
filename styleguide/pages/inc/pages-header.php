@@ -1,8 +1,10 @@
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent colorbg top" color-on-scroll="200">
      <div class="row container">
-         <a class="white" href="javascript:history.back()" role="button"><i
-                 class="fa fa-home fa-3x hvr-icon"></i>&nbsp;DASHBOARD</a>
+         <p class="smallcaps">
+             <a class="white large nounderline" href="javascript:history.back()" role="button"><i
+                     class="fa fa-tasks fa-2x"></i>&nbsp;Dashboard</a>
+         </p>
          <div class="collapse navbar-collapse justify-content-end" id="navigation">
              <ul class="navbar-nav">
                  <li class="nav-item strong" style="padding-top:8px;">

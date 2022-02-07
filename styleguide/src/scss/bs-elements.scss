@@ -77,12 +77,17 @@ a {
 		color: $link-color;
 		&:hover {
 			color: $accent-color;
-			text-transform: underline;
+			text-decoration: underline;
 		}
 	}
 	&:hover {
 		color: $accent-color;
-		text-transform: underline;
+		text-decoration: underline;
+	}
+}
+a.nounderline {
+	&:hover {
+		text-decoration: none;
 	}
 }
 a.scroll-show {

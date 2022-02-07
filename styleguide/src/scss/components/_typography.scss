@@ -245,6 +245,14 @@ small, .small-txt * {
     font-size: 75%;
 }
 
+p.smallcaps {
+  font-variant: small-caps !important;
+}
+
+a.large {
+  font-size:1.2rem;
+}
+
 .text-black {
   color:$black;
 }

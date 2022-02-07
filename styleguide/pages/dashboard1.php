@@ -25,6 +25,7 @@
                             <a href="javascript:history.back()"><img class="top-logo" src="../dist/img/logo.jpg" /></a>
                         </li>
                     </ul>
+
                 </div>
                 <div class="col-10" id="main-tabs">
                     <ul class="nav nav-tabs nav-tabs-primary">
@@ -32,19 +33,19 @@
                             optional spacer
                         </li>
                         <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
-                            <i class="now-ui-icons objects_umbrella-13"></i> Dashboard
+                            <i class="fa fa-tasks fa-2x"></i>&nbsp;Dashboard
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
-                            <i class="now-ui-icons business_bulb-63"></i> My Work
+                            <i class="fa fa-line-chart fa-2x"></i> My Work
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
-                            <i class="now-ui-icons objects_key-25"></i> Reports
+                            <i class="fa fa-file-text fa-2x"></i> Reports
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
-                            <i class="now-ui-icons ui-2_settings-90"></i> Tools
+                            <i class="fa fa-object-ungroup fa-2x"></i> Tools
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
-                            <i class="now-ui-icons location_world"></i> Search
+                            <i class="fa fa-bullseye fa-2x"></i> Search
                         </li>
                         <li class="nav-item nav-link nojump">
                             <div class="dropdown">
@@ -79,7 +80,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content nopad">
                     <div class="tab-pane active" id="dashboard-panel" role="tabpanel">
-                        <h2>Dashboard</h2>
+                        <h1>Dashboard</h1>
                         <section class="container wow fadeInUp">
                             <div class="row">
                                 <div class="col-6">
@@ -147,7 +148,7 @@
                         </section>
                     </div>
                     <div class="tab-pane" id="work" role="tabpanel">
-                        <h2>My Work</h2>
+                        <h1>My Work</h1>
                         <section class="container wow fadeInUp">
                             <div class="row">
                                 <div class="col-6">
@@ -162,7 +163,6 @@
                                 </div>
                             </div>
                         </section>
-
                         <section class="container wow fadeInUp noborder">
                             <div class=row">
                                 <a href="#" class="big">My Work</a>
@@ -190,7 +190,7 @@
                         </section>
                     </div>
                     <div class="tab-pane" id="reports" role="tabpanel">
-                        <h2>Reports</h2>
+                        <h1>Reports</h1>
                         <section class="container wow fadeInUp">
                             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
                                 cursus
@@ -205,13 +205,13 @@
                         </section>
                     </div>
                     <div class="tab-pane" id="tools" role="tabpanel">
-                        <h2>Tools </h2>
+                        <h1>Tools </h1>
                         <section class="container wow fadeInUp">
                             copy
                         </section>
                     </div>
                     <div class="tab-pane" id="search" role="tabpanel">
-                        <h2>Search </h2>
+                        <h1>Search </h1>
                         <section class="container wow fadeInUp">
                             <table class="table-sort">
                                 <thead>
