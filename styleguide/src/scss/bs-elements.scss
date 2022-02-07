@@ -153,6 +153,16 @@ ul.tight, ul.inline {
 	font-size:.75rem;
   }
 }
+ul.list-inline {
+	margin-bottom:0;
+	> li.list-inline-item {
+		color:$secondary-color;
+	}
+}
+.call-buttons {
+	margin-top: -30px;
+	padding:6px;
+}
 td.symbol {
 	padding: 5px 14px;
 }
@@ -180,7 +190,8 @@ p.border-spacer {
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
-  margin-top:-40px;
+  margin-top:65px;
+  padding-top:20px;
 }
 footer {
 	position: absolute;
