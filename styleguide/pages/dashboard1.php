@@ -137,14 +137,13 @@
                                 <div class="col-3">
                                     <div class="album bg-primary">
                                         <h2>New Feature</h2>
-
                                         <p>Primary medical care for patients of all ages. Caring for you and helping you
                                             stay healthy with regular check-ups and education.</p>
                                         <ul class="ml20">
                                             <li>ABC Takes 1</li>
                                             <li>No FEES</li>
+                                            <li>Besoin de Cloure</li>
                                             <li>Resources for Life</li>
-                                            <li>More Cheese</li>
                                         </ul>
                                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
                                             fermentum massa justo sit amet risus.</p>
@@ -457,11 +456,6 @@
                 </div>
             </div>
 
-
-
-
-
-
             <div class="tab-pane" id="call" role="tabpanel">
                 <div class="call-buttons bg-tertiary">
                     <ul class="list-inline">
@@ -470,7 +464,6 @@
                         <li class="list-inline-item">Third item</li>
                     </ul>
                 </div>
-
 
                 <div class="card narrow opacity">
                     <div class="card-body txt-black mt20">

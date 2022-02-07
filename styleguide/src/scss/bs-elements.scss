@@ -729,11 +729,9 @@ img.avatar {
 	border:1px solid $secondary-color-opacity;
 	border-radius: $border-radius-small;
 	background-color: $album-bg;
-	padding:16px;
-	margin-left: 20px !important;
-	&.small {
+	padding:8px;
+	> img {
 		width:250px;
-		margin:0 auto;
 	}
 }
 .colorbg {
