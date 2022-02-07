@@ -473,7 +473,7 @@
 
 
                 <div class="card narrow opacity">
-                    <div class="card-body txt-black">
+                    <div class="card-body txt-black mt20">
                         <div class="row row-offcanvas row-offcanvas-right">
                             <div class="col-3 sidebar-offcanvas" id="sidebar">
                                 <div class="box">
