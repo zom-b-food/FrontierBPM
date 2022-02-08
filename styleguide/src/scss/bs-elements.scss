@@ -157,11 +157,12 @@ ul.list-inline {
 	margin-bottom:0;
 	> li.list-inline-item {
 		color:$secondary-color;
+		padding-right:22px;
 	}
 }
 .call-buttons {
-	margin-top: -30px;
-	padding:6px;
+	margin-top: -20px;
+	padding:6px 22px;
 }
 td.symbol {
 	padding: 5px 14px;

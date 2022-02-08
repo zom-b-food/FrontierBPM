@@ -100,7 +100,6 @@
                                 <div class="box">three - <i class="fa fa-file-o"></i></div>
                             </div>
                         </div>
-
                         <section class="container wow fadeInUp">
                             <div class="row">
                                 <div class="col-6">
@@ -172,6 +171,13 @@
                 </div>
             </div>
             <div class="tab-pane" id="work" role="tabpanel">
+                <div class="call-buttons bg-tertiary">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">My Work</li>
+                        <li class="list-inline-item">2 Item</li>
+                        <li class="list-inline-item">3 Item</li>
+                    </ul>
+                </div>
                 <div class="card narrow opacity">
                     <div class="card-body txt-black">
                         <h1>Work</h1>
@@ -476,9 +482,9 @@
             <div class="tab-pane" id="call" role="tabpanel">
                 <div class="call-buttons bg-tertiary">
                     <ul class="list-inline">
-                        <li class="list-inline-item">First item</li>
-                        <li class="list-inline-item">Secound item</li>
-                        <li class="list-inline-item">Third item</li>
+                        <li class="list-inline-item">My Work</li>
+                        <li class="list-inline-item">2 Item</li>
+                        <li class="list-inline-item">3 Item</li>
                     </ul>
                 </div>
 
