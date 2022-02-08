@@ -21,7 +21,7 @@
         <!-- End Navbar -->
     </header>
     <main role="main">
-      
+
         <section id="tabs-cards" class="container wow fadeInUp noborder mt70">
             <div class="row row-offcanvas row-offcanvas-right">
                 <div class="col-12">
@@ -30,7 +30,7 @@
                     </p>
                 </div>
                 <div class="col-3 sidebar-offcanvas" id="sidebar">
-                    <div class="box">
+                    <div class="card">
                         <div class="row small mt10">
                             <table class="table-data">
                                 <tbody>
