@@ -30,7 +30,7 @@
                 <div class="col-10" id="main-tabs">
                     <ul class="nav nav-tabs nav-tabs-primary">
                         <li class="header-spacer">
-                            optional spacer
+                            spacer
                         </li>
                         <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
                             <i class="fa fa-tasks fa-2x"></i>&nbsp;Dashboard
@@ -88,7 +88,7 @@
                     <div class="card-body txt-black">
                         <div class="row">
                             <div class="col-6">
-                                <h1>Dashboard</h1>
+                                <h1>Welcome, Mark Heupel</h1>
                             </div>
                             <div class="col-2">
                                 <div class="box">one - <i class="fa fa-envelope-o"></i></div>
