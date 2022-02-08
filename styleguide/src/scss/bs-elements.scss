@@ -173,10 +173,7 @@ p.border-spacer {
 	width:10px; 
 	border-left:1px solid white;
 }
-.card.narrow {
-	width:90%;
-	height:90vh;
-}
+
 .opacity {
 	background-color: rgba(255,255,255,.2);
 }
@@ -485,20 +482,32 @@ ul.pagination li {
 img.avatar {
 	padding-right:12px;
 }
-#sidebar
-.album {
-	color:$white;
-	padding: .25rem;
-	margin: 0 auto;
-	margin-top:12px;
-	background-color: $secondary-color;
+.box {
+	border:1px solid $tertiary-color-opacity;
 	border-radius: $border-radius-small;
-	white-space: nowrap;
+	background-color: $secondary-color;
+	padding:16px;
+	margin: 0 10px !important;
+	&.middle {
+		width:88%;
+	}
 }
+.album {
+	border:1px solid $secondary-color-opacity;
+	border-radius: $border-radius-small;
+	background-color: $album-bg;
+	// white-space: nowrap;
+	margin: 0 auto;
+	padding:8px;
+	> img {
+		width:250px;
+	}
+}
+
 .card {
 	text-align: left;
 	border: 0;
-	padding: 1rem;
+	padding: 1.5rem;
 	margin-bottom: 14px !important;
 	border-radius: 0;
 	>img {
@@ -507,6 +516,10 @@ img.avatar {
 }
 .card-text {
 	font-size: 85%;
+}
+.card.narrow {
+	width:90%;
+	height:90vh;
 }
 .presentation {
 	.front {
@@ -714,24 +727,6 @@ img.avatar {
 		color: $gray-600;
 		padding-left: 8px;
 		font-size: 0.75rem;
-	}
-}
-.box {
-	border:1px solid $secondary-color-opacity;
-	border-radius: $border-radius-small;
-	padding:16px;
-	margin: 0 10px !important;
-	&.middle {
-		width:88%;
-	}
-}
-.album {
-	border:1px solid $secondary-color-opacity;
-	border-radius: $border-radius-small;
-	background-color: $album-bg;
-	padding:8px;
-	> img {
-		width:250px;
 	}
 }
 .colorbg {
