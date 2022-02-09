@@ -154,10 +154,15 @@ ul.tight, ul.inline {
   }
 }
 ul.list-inline {
+	margin-top:2px;
 	margin-bottom:0;
 	> li.list-inline-item {
-		color:$secondary-color;
-		padding-right:22px;
+		background-color: $secondary-color;
+		color:$primary-color;
+		padding:4px 15px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		cursor: pointer;
 	}
 }
 .call-buttons {
