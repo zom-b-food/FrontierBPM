@@ -519,7 +519,7 @@
 
                     <div class="card-body txt-black">
                         <div class="row row-offcanvas row-offcanvas-right">
-                            <div class="col-2 sidebar-offcanvas" id="sidebar">
+                            <div class="col-3 sidebar-offcanvas" id="sidebar">
                                 <div class="card">
                                     <h4>Conversation Summary</h4>
                                     <table class="table-data">
@@ -559,7 +559,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-10 border-left">
+                            <div class="col-9 border-left">
                                 <table class="table-sort">
                                     <thead>
                                         <tr>
