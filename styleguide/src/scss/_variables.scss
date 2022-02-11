@@ -159,12 +159,12 @@ $accordion-border:           $secondary-color;
 // Fonts
 //
 $font-size-base:               12.5px;  // 1rem !default; - Assumes the browser default, typically `16px`
-$font-size-h1:                 $font-size-base * 1.50 !default;
-$font-size-h2:                 $font-size-base * 1.25 !default;
-$font-size-h3:                 $font-size-base * 1.15 !default;
-$font-size-h4:                 $font-size-base * 1.10 !default;
-$font-size-h5:                 $font-size-base * 1.10 !default;
-$font-size-h6:                 $font-size-base !default;
+$font-size-h1:                 $font-size-base * 1.75 !default;
+$font-size-h2:                 $font-size-base * 1.50 !default;
+$font-size-h3:                 $font-size-base * 1.25 !default;
+$font-size-h4:                 $font-size-base * 1.15 !default;
+$font-size-h5:                 $font-size-base * 1.15 !default;
+$font-size-h6:                 $font-size-base * 1 !default;
 $font-paragraph:               1rem          !default;
 $font-size-navbar:             1rem          !default;
 $font-size-mini:               0.7142rem     !default;

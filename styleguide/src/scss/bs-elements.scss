@@ -743,6 +743,12 @@ img.avatar {
     position: relative;
     display: inline-block;
 	z-index: 999;
+	li {
+		list-style-type: none;
+		a {
+			color:$white;
+		}
+	}
 }
 
 .dropdown-content {

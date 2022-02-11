@@ -33,19 +33,22 @@
                             spacer
                         </li>
                         <li class="nav-item nav-link nojump active" data-toggle="tab" data-target="#dashboard-panel">
-                            <i class="fa fa-tasks fa-2x"></i>&nbsp;Dashboard
+                            <i class="fa fa-tasks"></i>&nbsp;Dashboard
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#work">
-                            <i class="fa fa-line-chart fa-2x"></i> Work
+                            <i class="fa fa-line-chart"></i> Work
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#reports">
-                            <i class="fa fa-file-text fa-2x"></i> Reports
+                            <i class="fa fa-file-text"></i> Reports
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#tools">
-                            <i class="fa fa-object-ungroup fa-2x"></i> Tools
+                            <i class="fa fa-object-ungroup"></i> Tools
                         </li>
                         <li class="nav-item nav-link nojump" data-toggle="tab" data-target="#search">
-                            <i class="fa fa-bullseye fa-2x"></i> Search
+                            <i class="fa fa-bullseye"></i> Search
+                        </li>
+                        <li class="header-spacer">
+                            spacer contains this text
                         </li>
                         <li class="nav-item nav-link nojump dropdown">
                             <button class="btn btn-secondary top">+New</button>
@@ -482,72 +485,77 @@
             <div class="tab-pane" id="call" role="tabpanel">
                 <div class="call-buttons bg-tertiary">
                     <ul class="list-inline">
-                        <li class="list-inline-item">My Work</li>
+                        <li class="list-inline-item">Work</li>
                         <li class="list-inline-item">2 Item</li>
                         <li class="list-inline-item">3 Item</li>
                     </ul>
                 </div>
 
                 <div class="card narrow opacity">
-                    <div class="card-body txt-black mt20">
+                    <div class="dropdown">
+                        <button class="btn btn-primary top">Actions&nbsp;&nbsp;<i
+                                class="fa fa-angle-double-right"></i></button>
+                        <ul class="dropdown-content nobullet bg-primary">
+                            <li><a class="nav-item nav-link nojump" href="#">Wrap Up</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Enroll Patient</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Prescriptions</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Benefit Investigation</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">PAP Eligability</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Consent Management</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Appointment</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Care Team</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Patient Survey</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Update Contact Profile</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Send SP Referal</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body txt-black">
                         <div class="row row-offcanvas row-offcanvas-right">
                             <div class="col-3 sidebar-offcanvas" id="sidebar">
                                 <div class="card">
-                                    <div class="row small mt10">
-                                        <table class="table-data">
-                                            <tbody>
-                                                <tr>
-                                                    <td rowspan="3" class="avatar">
-                                                        <img src="../dist/img/avatar-small.jpg" class="avatar" />
-                                                    </td>
-                                                    <td colspan="2">&nbsp;</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Unknown Contact</td>
-                                                    <td>&nbsp;</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" class="strong">&nbsp;</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="album row">
-                                        <div class="col-3"><i class="fa fa-envelope"></i></div>
-                                        <div class="col-9">02:22/06.00</div>
-                                    </div>
+                                    <h4>Call Summary</h4>
+                                    <table class="table-data">
+                                        <tbody>
+                                            <tr>
+                                                <td rowspan="3" class="avatar">
+                                                    <img src="../dist/img/avatar-small.jpg" class="avatar" />
+                                                </td>
+                                                <td colspan="2">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jon L. Miragipan</td>
+                                                <td>cont-6312</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="strong">Physician</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                     <hr class="nomargin" />
-                                    <div class="row">
-                                        <span class="strong">Call Details</span>
-                                    </div>
-                                    <div class="row small-txt mt10">
-                                        <div class="col-5">Cell Program<br />
-                                            Product Name<br />
-                                            Office Contact<br />
-                                            Phone Number
-                                        </div>
-                                        <div class="col-7">FBPM Care Plan<br />
-                                            Frontierium (injection)<br />
-                                            Nurse Sara<br />
-                                            215-985-9965
-                                        </div>
-                                    </div>
+                                    <h6>Cell Program</h6>
+                                    <span class="indent">FBPM Care Plan</span>
+                                    <h6>Phone Number</h6>
+                                    <span class="indent">215-844-0254</span>
+                                    <h6>Product Name</h6>
+                                    <span class="indent">Frontierium (injection)</span>
+                                    <h6>Office Contact</h6>
+                                    <span class="indent">Nurse Sara</span>
                                     <hr class="nomargin" />
-                                    <button class="btn btn-primary btn-sm w100">+ Add Task</button>
-                                    <button class="btn btn-secondary btn-sm w100">% Wrap Up</button>
-                                    <hr class="nomargin" />
-                                    <div class="row">
-                                        <span class="strong">Open Tasks</span>
-                                    </div>
-                                    <div class="row mt10">
-                                        <ul class="tight">
-                                            <li>Task1: Do this...</li>
-                                            <li>Task2: Do that...</li>
-                                            <li>Task3: Feed the dog and take a nap before 4pm when the kids will arrive
-                                                with
-                                                pizza...</li>
-                                        </ul>
-                                    </div>
+                                    <h4>Open Tasks</h4>
+                                    <ul class="tight">
+                                        <li>Task1: Do this...</li>
+                                        <li>Task2: Do that...</li>
+                                        <li>Task3: Feed the dog and take a nap before 4pm when the kids will arrive
+                                            with
+                                            pizza...</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-9 border-left">

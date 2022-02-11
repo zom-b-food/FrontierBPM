@@ -1,87 +1,3 @@
-@font-face {
-  font-family: 'LigatureSymbols';
-  src: url('../fonts/LigatureSymbols-2.11.eot');
-  src: url('../fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/LigatureSymbols-2.11.woff') format('woff'),
-  url('../fonts/LigatureSymbols-2.11.ttf') format('truetype'),
-  url('../fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
-  src: url('../fonts/LigatureSymbols-2.11.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.lsf, .lsf-icon:before {
-  font-family: 'LigatureSymbols';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-
-.lsf-icon:before {
-  content:attr(title);
-  margin-right:0.3em;
-  font-size:112%;
-  border:2px solid $smoke;
-  padding:3px 5px 3px;
-  border-radius: $border-radius-small;
-  color:$cream;
-  background-color:$nightblue;
-  line-height: 20px;
-  opacity:.7;
-}
-
-td.lsf.symbol {
-  font-size: 1.2rem !important;
-}
-  .lsf-icon.sns:before {
-    content: '\E11f';
-
-  }
-  .lsf-icon.magic:before {
-    content: '\E089';
-
-  }
-  .lsf-icon.home:before {
-    content: '\E072';
-
-  }
-  .lsf-icon.college:before {
-    content: '\E174';
-
-  }
-  .lsf-icon.login:before {
-    content: '\E087';
-
-  }
-  .lsf-icon.mail:before {
-    content: '\E08a';
-
-  }
-  .lsf-icon.app:before {
-    content: '\E009';
-
-  }
-  .lsf-icon.sitemap:before {
-    content: '\E16d';
-
-  }
-  .lsf-icon.twinkle:before {
-    content: '\E073';
-
-  }
-  .lsf-icon.param:before {
-    content: '\E09c';
-
-  }
-
-
 
 //
 // Headings
@@ -105,6 +21,7 @@ h6, .h6 { font-size: $font-size-h6; }
 
 h1, .h1 {
   font-size: $font-size-h1;
+  font-weight: $font-weight-bold;
   line-height: 1.15;
   margin-bottom: $margin-base-vertical * 2;
 
@@ -116,16 +33,17 @@ h1, .h1 {
 }
 h2, .h2{
   font-size: $font-size-h2;
+  font-weight: $font-weight-bold;
   margin-bottom: $margin-base-vertical * 2;
 }
 h3, .h3{
   font-size: $font-size-h3;
+  font-weight: $font-weight-bold;
   margin-bottom: $margin-base-vertical;
-  line-height: 1.4em;
 }
 h4, .h4{
   font-size: $font-size-h4;
-  line-height: 1.45em;
+  font-weight: $font-weight-bold;
   margin-bottom: $margin-base-vertical;
 
   & + .category,
@@ -135,13 +53,12 @@ h4, .h4{
 }
 h5, .h5 {
   font-size: $font-size-h5;
-  line-height: 1.4em;
-  margin-bottom: 15px;
+  font-weight: $font-weight-bold;
 }
 h6, .h6{
   font-size: $font-size-h6;
   font-weight: $font-weight-bold;
-  text-transform: uppercase;
+  margin-bottom: 0;
 }
 p, td, div, button, pre {
   line-height: $line-height-base;
@@ -237,7 +154,7 @@ textarea{
     font-family: $sans-serif-family;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-bold;
     font-family: $font-family-base;
 }
 
