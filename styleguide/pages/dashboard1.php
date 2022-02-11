@@ -493,7 +493,8 @@
 
                 <div class="card narrow opacity">
                     <div class="dropdown">
-                        <button class="btn btn-primary top">Actions&nbsp;&nbsp;<i
+                        <button class="btn btn-primary top"><i
+                                class="fa fa-plus-square"></i>&nbsp;&nbsp;Actions&nbsp;&nbsp;<i
                                 class="fa fa-angle-double-right"></i></button>
                         <ul class="dropdown-content nobullet bg-primary">
                             <li><a class="nav-item nav-link nojump" href="#">Wrap Up</a></li>
