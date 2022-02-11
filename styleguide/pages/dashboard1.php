@@ -540,6 +540,7 @@
                                         </tbody>
                                     </table>
                                     <hr class="nomargin" />
+                                    <h3 class="blue"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;ADD'L FSET INFO</h3>
                                     <h6>Cell Program</h6>
                                     <span class="indent">FBPM Care Plan</span>
                                     <h6>Phone Number</h6>

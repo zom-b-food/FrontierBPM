@@ -179,7 +179,9 @@ p.border-spacer {
 	width:10px; 
 	border-left:1px solid white;
 }
-
+.blue{
+	color:$primary-color;
+}
 .opacity {
 	background-color: rgba(255,255,255,.2);
 }
@@ -742,7 +744,7 @@ img.avatar {
 .dropdown {
     position: relative;
     display: inline-block;
-	z-index: 999;
+	
 	li {
 		list-style-type: none;
 		a {
@@ -753,6 +755,7 @@ img.avatar {
 
 .dropdown-content {
     position: absolute;
+	z-index: 999;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     opacity: 0;
