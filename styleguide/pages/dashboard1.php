@@ -519,20 +519,20 @@
 
                     <div class="card-body txt-black">
                         <div class="row row-offcanvas row-offcanvas-right">
-                            <div class="col-3 sidebar-offcanvas" id="sidebar">
+                            <div class="col-2 sidebar-offcanvas" id="sidebar">
                                 <div class="card">
-                                    <h4>Call Summary</h4>
+                                    <h4>Conversation Summary</h4>
                                     <table class="table-data">
                                         <tbody>
                                             <tr>
                                                 <td rowspan="3" class="avatar">
                                                     <img src="../dist/img/avatar-small.jpg" class="avatar" />
                                                 </td>
-                                                <td colspan="2">&nbsp;</td>
+
                                             </tr>
                                             <tr>
                                                 <td>Jon L. Miragipan</td>
-                                                <td>cont-6312</td>
+
                                             </tr>
                                             <tr>
                                                 <td colspan="2" class="strong">Physician</td>
@@ -559,7 +559,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-9 border-left">
+                            <div class="col-10 border-left">
                                 <table class="table-sort">
                                     <thead>
                                         <tr>
