@@ -5,6 +5,18 @@
     <meta name="description" content="">
     <title>Dashboard 1 - Bootstrap 4 </title>
     <?php include '../pages/inc/globals-top.php'; ?>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".sliderbutton").click(function() {
+            $(".slidercard").animate({
+                width: "toggle"
+            });
+        });
+    });
+    </script>
 </head>
 
 <body class="sidebar-collapse" id="top">
@@ -518,8 +530,9 @@
                     </div>
 
                     <div class="card-body txt-black">
+
                         <div class="row row-offcanvas row-offcanvas-right">
-                            <div class="col-3 sidebar-offcanvas" id="sidebar">
+                            <div class="col-3 sidebar-offcanvas slidercard" id="sidebar">
                                 <div class="card">
                                     <h4>Conversation Summary</h4>
                                     <table class="table-data">
@@ -782,6 +795,10 @@
                         </div>
                     </div>
                 </div>
+                <button type="button" class="sliderbutton">
+                    <i class="fa fa-exchange fa-2x"></i>
+                    <br />&nbsp;Summary&nbsp;
+                </button>
             </div>
 
         </div>

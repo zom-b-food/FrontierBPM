@@ -798,6 +798,25 @@ p.bottom-align {
 	
 }
 
+ .sliderbutton {
+        float: left;
+        margin-top: -168px;
+        margin-left: 100px;
+        opacity: .5;
+		padding:3px;
+		border:1px solid $gray-400;
+		border-radius:4px;
+        &:hover {
+            opacity: .95;
+        }
+    }
+
+    .slidercard {
+
+        margin-top: 10px;
+
+        overflow: hidden;
+    }
 
 @media (min-width: 768px) {
   .animate {
