@@ -534,7 +534,7 @@
                         <div class="row row-offcanvas row-offcanvas-right">
                             <div class="col-3 sidebar-offcanvas slidercard" id="sidebar">
                                 <div class="card">
-                                    <h4>Conversation Summary</h4>
+                                    <h2 class="blue bold-name">Contact</h2>
                                     <table class="table-data">
                                         <tbody>
                                             <tr>
@@ -544,7 +544,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td>Jon L. Miragipan</td>
+                                                <td class="bold-name">Jon L. Miragipan</td>
 
                                             </tr>
                                             <tr>
@@ -553,7 +553,7 @@
                                         </tbody>
                                     </table>
                                     <hr class="nomargin" />
-                                    <h3 class="blue"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;ADD'L FSET INFO</h3>
+                                    <h4 class="blue"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;Conversation Summary</h4>
                                     <h6>Cell Program</h6>
                                     <span class="indent">FBPM Care Plan</span>
                                     <h6>Phone Number</h6>
@@ -563,7 +563,7 @@
                                     <h6>Office Contact</h6>
                                     <span class="indent">Nurse Sara</span>
                                     <hr class="nomargin" />
-                                    <h4>Open Tasks</h4>
+                                    <h4 class="blue"><i class="fa fa-th-list"></i>&nbsp;&nbsp;Open Tasks</h4>
                                     <ul class="tight">
                                         <li>Task1: Do this...</li>
                                         <li>Task2: Do that...</li>
