@@ -541,11 +541,9 @@
                                                 <td rowspan="3" class="avatar">
                                                     <img src="../dist/img/avatar-small.jpg" class="avatar" />
                                                 </td>
-
                                             </tr>
                                             <tr>
                                                 <td class="bold-name txt-black">Jon L. Miragipan</td>
-
                                             </tr>
                                             <tr>
                                                 <td colspan="2" class="strong">Physician</td>

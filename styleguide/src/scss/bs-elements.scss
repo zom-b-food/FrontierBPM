@@ -189,7 +189,7 @@ p.border-spacer {
 	width:90%;
 }
 .hero {
-	background-image: url("../img/backgrounds/dashboard-hero.jpg");
+background-image: url("../img/backgrounds/hero-dashboard.jpg");
   background-color: #cccccc; 
   height: 100vh; 
   background-position: center;
@@ -381,11 +381,6 @@ ul.pagination li {
 	display: block;
 	width: 100%;
 	position: relative;
-}
-#buttons {
-	.btn {
-		margin: 0 0px 10px;
-	}
 }
 #javascriptComponents {
 	.btn {
