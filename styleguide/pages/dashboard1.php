@@ -544,7 +544,7 @@
 
                                             </tr>
                                             <tr>
-                                                <td class="bold-name">Jon L. Miragipan</td>
+                                                <td class="bold-name txt-black">Jon L. Miragipan</td>
 
                                             </tr>
                                             <tr>
