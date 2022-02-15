@@ -16,7 +16,7 @@
     });
     </script>
     <header class="styleguide">
-        <?php include '../pages/inc/home-header.php'; ?>
+        <?php include '../pages/inc/styleguide-home-header.php'; ?>
     </header>
     <main role="main">
         <div id="cd-nav">

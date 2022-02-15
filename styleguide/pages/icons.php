@@ -15,7 +15,7 @@
 
 <body class="sidebar-collapse" id="top">
     <header>
-        <?php include '../pages/inc/template-header.php'; ?>
+        <?php include '../pages/inc/styleguide-template-header.php'; ?>
     </header>
     <main role="main">
         <div id="icons-wrapper" class="container">
