@@ -296,7 +296,9 @@
                         <ul class="dropdown-content nobullet bg-primary">
                             <li><a class="nav-item nav-link nojump" href="#">Wrap Up</a></li>
                             <div class="dropdown-divider"></div>
-                            <li><a class="nav-item nav-link nojump" href="#">Update Contact Profile</a></li>
+                            <li data-toggle="tab" data-target="#update">
+                                <a class="nav-item nav-link nojump" href="#">Update Contact Profile</a>
+                            </li>
                             <li><a class="nav-item nav-link nojump" href="#">Enroll Patient</a></li>
                             <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
                             <li><a class="nav-item nav-link nojump" href="#">Manage Prescriptions</a></li>
@@ -336,12 +338,17 @@
                                     </table>
                                     <hr class="nomargin" />
                                     <h4 class="blue"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;Conversation Summary</h4>
-                                    <h6>Cell Program</h6>
-                                    <span class="indent">FBPM Care Plan</span>
-                                    <h6>Phone Number</h6>
-                                    <span class="indent">215-844-0254</span>
+                                    <h6>Company</h6>
+                                    <span class="indent">Gilead Co</span>
                                     <h6>Product Name</h6>
                                     <span class="indent">Frontierium (injection)</span>
+                                    <h6>Program</h6>
+                                    <span class="indent">FBPM Care Plan</span>
+                                    <h6>Number Dialed</h6>
+                                    <span class="indent">215-844-0254</span>
+                                    <h6>Source</h6>
+                                    <span class="indent">510-805-2019<br />
+                                        tom@gmail.com</span>
                                     <hr class="nomargin" />
                                     <h4 class="blue"><i class="fa fa-th-list"></i>&nbsp;&nbsp;Open Tasks</h4>
                                     <!-- <ul class="tight">
@@ -354,7 +361,25 @@
                                 </div>
                             </div>
                             <div class="col-9 border-left">
-                                <h2>New Conversation<br /><small>Search for Contact</small></h2>
+                                <h2>New Conversation</h2>
+                                <div class="card">
+                                    <h5>Search for Contact</h5>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Enter Search Text">
+                                    </div>
+                                    <div class="input-group">
+                                        <button class="btn btn-primary btn-sm">Search</button>
+                                    </div>
+                                    <hr class="nomargin" />
+                                    <div class="input-group">
+                                        <button class="btn btn-primary btn-sm">Create New Contact</button>
+                                        <img src="../dist/img/bar.png" />
+                                        <button class="btn btn-primary btn-sm">NPI Lookup</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -363,6 +388,252 @@
                     <i class="fa fa-exchange fa-2x"></i>
                     <br />&nbsp;Summary&nbsp;
                 </button>
+            </div>
+            <div class="tab-pane" id="update" role="tabpanel">
+                <div class="call-buttons bg-tertiary">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Work</li>
+                        <li class="list-inline-item">Call 1</li>
+                        <li class="list-inline-item">Call 2</li>
+                    </ul>
+                </div>
+                <div class="card narrow opacity">
+                    <div class="dropdown">
+                        <button class="btn btn-primary top"><i
+                                class="fa fa-plus-square"></i>&nbsp;&nbsp;Actions</button>
+                        <ul class="dropdown-content nobullet bg-primary">
+                            <li><a class="nav-item nav-link nojump" href="#">Wrap Up</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li data-toggle="tab" data-target="#update">
+                                <a class="nav-item nav-link nojump" href="#">Update Contact Profile</a>
+                            </li>
+                            <li><a class="nav-item nav-link nojump" href="#">Enroll Patient</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Prescriptions</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Benefit Investigation</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">PAP Eligability</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Consent Management</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Appointment</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Care Team</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
+                            <li><a class="nav-item nav-link nojump" href="#">Patient Survey</a></li>
+
+                            <div class="dropdown-divider"></div>
+                            <li><a class="nav-item nav-link nojump" href="#">Send SP Referal</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body txt-black card-scroll">
+                        <div class="row row-offcanvas row-offcanvas-right">
+                            <div class="col-3 sidebar-offcanvas slidercard" id="sidebar">
+                                <div class="card">
+                                    <h2 class="blue bold-name">Contact Details</h2>
+                                    <table class="table-data">
+                                        <tbody>
+                                            <tr>
+                                                <td rowspan="3" class="avatar">
+                                                    <img src="../dist/img/avatar-small.jpg" class="avatar" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bold-name txt-black">Unknown Contact</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="strong">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr class="nomargin" />
+                                    <h4 class="blue"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;Contact Details</h4>
+                                    <h6>First Name:</h6>
+                                    <span class="indent">Bart</span>
+                                    <h6>Last Name:</h6>
+                                    <span class="indent">Simpson</span>
+                                    <h6>Customer Type:</h6>
+                                    <span class="indent">Patient</span>
+                                    <h6>Gender</h6>
+                                    <span class="indent">Male</span>
+                                    <h6>Primary Email:</h6>
+                                    <span class="indent">bartJsimpson@gmail.com</span>
+
+
+                                    <h6>Home Phone:</h6>
+                                    <span class="indent">555-555-1212</span>
+                                    <h6>Date of Birth:</h6>
+                                    <span class="indent">10/31/1993</span>
+                                    <h6>SSN Last Four:</h6>
+                                    <span class="indent">1111</span>
+
+
+
+
+                                    <hr class="nomargin" />
+                                    <h4 class="blue"><i class="fa fa-th-list"></i>&nbsp;&nbsp;Patient Status</h4>
+                                    <h6>Enrollment Status:</h6>
+                                    <span class="indent">Yes</span>
+                                    <h6>Benefit Status:</h6>
+                                    <span class="indent">n/a</span>
+                                    <h6>Therapy Stats:</h6>
+                                    <span class="indent">2</span>
+                                </div>
+                            </div>
+                            <div class="col-9 border-left">
+                                <h2>Update Contact</h2>
+                                <div class="bob">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="fname">First Name:</label>
+                                                    <input type="text" class="form-control" placeholder="first name"
+                                                        id="fname">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="mn">Middle Name:</label>
+                                                    <input type="text" class="form-control" placeholder="middle name"
+                                                        id="mn">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="ln">Last Name:</label>
+                                                    <input type="text" class="form-control" placeholder="last name"
+                                                        id="ln">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="contact-type">Contact Type:</label>
+                                                    <select name="contact-type" id="contact-type">
+                                                        <option value="patient">Patient</option>
+                                                        <option value="...">...</option>
+                                                        <option value="...">...</option>
+                                                        <option value="...">...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="gender">Gender:</label>
+                                                    <select name="gender" id="gender">
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="language">Language:</label>
+                                                    <select name="language" id="language">
+                                                        <option value="English">English</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="pemail">Primary Email:</label>
+                                                    <input type="email" class="form-control" placeholder="primary email"
+                                                        id="pemail">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="semail">Secondary Email:</label>
+                                                    <input type="email" class="form-control"
+                                                        placeholder="secondary email" id="semail">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="pphone">Primary Phone Number:</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="primary phone number" id="pphone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="sphone">Secondary Phone Number:</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="secondary phone number" id="sphone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="conmethod">Preferred Contact Method:</label>
+                                                    <select name="conmethod" id="conmethod">
+                                                        <option value="ppfone">Primary Phone</option>
+                                                        <option value="female">Primary Email</option>
+                                                        <option value="other">Secondary Phone</option>
+                                                        <option value="other">Secondary Email</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="dob">Date of Birth:</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" placeholder="10/31/1999"
+                                                            id="dob">
+                                                        <span class="input-group-addon">
+                                                            <i class="fa fa-calendar"></i>
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="ssn">SSN Last Four:</label>
+                                                    <input type="text" class="form-control" placeholder="1111" id="ssn">
+                                                </div>
+                                                <!-- <div class="form-group form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox"> Remember me
+                                                    </label>
+                                                </div> -->
+                                                <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                            </div>
+                                            <div class="col-6">
+
+                                                <div class="form-group">
+                                                    <label for="address">Address:</label>
+                                                    <input type="text" class="form-control" placeholder="Address"
+                                                        id="address">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="pwd">Type:</label>
+                                                    <select name="gender" id="gender">
+                                                        <option value="ppfone">Home</option>
+                                                        <option value="female">Office</option>
+                                                        <option value="other">Cell</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="country">Country:</label>
+                                                    <select name="country" id="country">
+                                                        <option value="ppfone">United States</option>
+                                                        <option value="female">Canada</option>
+
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="city">City Name:</label>
+                                                    <input type="text" class="form-control" placeholder="City"
+                                                        id="city">
+                                                </div>
+
+                                                <label for="gender">State/Province/Territory:</label>
+                                                <select name="gender" id="gender">
+                                                    <option value="ppfone">New Jersey</option>
+                                                    <option value="female">New York</option>
+
+                                                </select>
+                                                <div class="form-group">
+                                                    <label for="pwd">Zip/Postal Code:</label>
+                                                    <input type="text" class="form-control" placeholder="City" id="pwd">
+                                                </div>
+                                                <!-- <div class="form-group form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox"> Remember me
+                                                    </label>
+                                                </div> -->
+                                                <div class="input-group">
+                                                    <button class="btn btn-primary btn-sm">Remove Address</button>
+                                                    <img src="../dist/img/bar.png" />
+                                                    <button class="btn btn-primary btn-sm">Add Address</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

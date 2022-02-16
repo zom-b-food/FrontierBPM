@@ -179,6 +179,12 @@ p.border-spacer {
 	width:10px; 
 	border-left:1px solid white;
 }
+label {
+    display: inline-block;
+    margin-bottom: 0.15rem;
+	font-weight: 900;
+}
+
 .blue{
 	color:$primary-color;
 }
@@ -513,9 +519,19 @@ img.avatar {
 	padding: 1.5rem;
 	margin-bottom: 14px !important;
 	border-radius: 0;
+	
 	>img {
 		margin-bottom: 0.5rem;
 	}
+}
+
+.card-scroll, #cs {
+	text-align: left;
+	border: 0;
+	padding: 1.5rem;
+	margin-bottom: 14px !important;
+	border-radius: 0;
+	overflow-y: scroll;
 }
 .card-text {
 	font-size: 85%;
@@ -792,6 +808,8 @@ p.bottom-align {
 	border-right:2px solid $tertiary-color;
 	
 }
+
+
 
  .sliderbutton {
         float: left;

@@ -290,8 +290,10 @@ textarea:focus {
 
 select {
   color: #4d4d4d;
-  padding: 3px;
+  padding: 8px;
   margin-left: 1px;
+  outline: none;
+  width: 100%;
   border:1px solid $light-gray;
   outline:none;
 }
@@ -1066,14 +1068,16 @@ input[type="radio"]:disabled + label::after {
   margin-top: 0;
 }
 
-input[type=checkbox] {
-    -webkit-appearance: none;
-    border: 1px solid #cacece;
-    width: 33px;
-    margin-top: -1px;
-    float: left;
-    background-color: rgba(255, 255, 255, .3);
-}
+// input[type=checkbox] {
+//     -webkit-appearance: none;
+//     border: 2px solid #cacece;
+//     width: 20px;
+//     height:20px !important;
+//     margin-top: -1px;
+//     margin-right:10px;
+//     float: left;
+//     background-color: rgba(255, 255, 255, .3);
+// }
 
 input[type=checkbox]:active,
 input[type=checkbox]:checked:active {
@@ -1086,14 +1090,14 @@ input[type=checkbox]:checked {
     color: $tertiary-color;
 }
 
-input[type=checkbox]:checked:after {
-    content: '\2713';
-    font-size: 25px;
-    top: 3px;
-    padding-left: 6px;
-    color: $primary-color;
-    font-weight: bold;
-}
+// input[type=checkbox]:checked:after {
+//     content: '\2713';
+//     font-size: 14px;
+//     top: 3px;
+//     padding-left: 6px;
+//     color: $primary-color;
+//     font-weight: bold;
+// }
 
 input[type=text],
 input[type=password],
