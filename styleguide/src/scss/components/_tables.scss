@@ -176,17 +176,17 @@ th {
   color: #fff;
   background-color: $th-bg-color;
 }
-
-td {
-  border-bottom: 1px solid #ccc;
-  line-height: 2em;
-}
-
 td, th {
   padding: 0 10px;
   font-size: 13px;
   min-height: 1.25em;
 }
+td {
+  border-bottom: 1px solid #ccc;
+  padding-left:6px !important;
+}
+
+
 
 tbody tr:nth-child(even) {
   background: rgb(240, 240, 240);

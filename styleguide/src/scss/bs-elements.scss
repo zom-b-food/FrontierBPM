@@ -184,7 +184,12 @@ label {
     margin-bottom: 0.15rem;
 	font-weight: 900;
 }
-
+.nav-tabs .nav-item-hz {
+    margin-bottom: -1px;
+    border-radius: 4px;
+    margin-right: 12px;
+    background-color: $smoke;
+}
 .blue{
 	color:$primary-color;
 }
@@ -485,9 +490,12 @@ ul.pagination li {
 	}
 }
 .row.tight {
+	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
-
+.bold {
+	font-weight:900;
+}
 img.avatar {
 	padding-right:12px;
 }
@@ -510,6 +518,10 @@ img.avatar {
 	padding:8px;
 	> img {
 		width:250px;
+	}
+	&.short {
+		margin:0;
+		width:50%;
 	}
 }
 

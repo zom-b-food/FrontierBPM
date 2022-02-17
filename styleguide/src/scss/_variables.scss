@@ -63,7 +63,8 @@ $moonblue: #d0d8db;
 $body-bg:                   $white !default;
 $body-color:                $black !default;
 $text-color:                $body-color;
-
+$green-bg:                  #55ee65;
+$yellow-bg:                 #f5d16f;
 $link-color:                $tertiary-color !default;
 $link-decoration:           none !default;
 $link-hover-color:          darken($link-color, 15%) !default;
@@ -335,7 +336,7 @@ $mark-bg: #fcf8e3 !default;
 
 // line-height
 //
-$line-height-base:           1.75 !default;
+$line-height-base:           2.00 !default;
 $line-height-general:        1.75            !default;
 $line-height-nav-link:       1.625rem       !default;
 $btn-icon-line-height:       2.4em          !default;
