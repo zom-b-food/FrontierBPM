@@ -11,7 +11,9 @@
   // Top section of the modal w/ title and dismiss
   .modal-header {
     border-bottom: none;
-    padding-top:    24px;
+    background-color: $primary-color;
+    color:$white;
+    border-bottom:2px solid $tertiary-color;
     padding-right:  24px;
     padding-bottom: 0;
     padding-left:   24px;
@@ -75,7 +77,7 @@
         }
 
         .modal-dialog{
-            max-width: 255px;
+            max-width: 400px;
             margin: 0 auto;
         }
 

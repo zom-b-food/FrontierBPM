@@ -77,6 +77,7 @@
   text-transform: uppercase;
 }
 // .indent {padding-left:10px;}
+.ml15 {margin-left:15px !important;}
 .ml20 {margin-left:20px !important;}
 .mt7 {margin-top:7px !important;}
 .mt10 {margin-top:10px !important;}
@@ -91,9 +92,12 @@
 .mt100 {margin-top:100px !important;}
 .pt90  {padding-top:90px !important;}
 .w100 {width:100% !important;}
-
+.right-align {margin-left:80% !important;}
 .nowrap {
   white-space: nowrap;
+}
+.pointer {
+  cursor: pointer;
 }
 
 .space {
