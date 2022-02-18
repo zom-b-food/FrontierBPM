@@ -699,20 +699,26 @@
                                                         id="ln">
                                                 </div>
 
-                                                <div class="form-group">
-                                                    <label for="gender">Gender:</label>
-                                                    <select name="gender" id="gender">
-                                                        <option value="male">Male</option>
-                                                        <option value="female">Female</option>
-                                                        <option value="other">Other</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="language">Language:</label>
-                                                    <select name="language" id="language">
-                                                        <option value="English">English</option>
-                                                        <option value="other">Other</option>
-                                                    </select>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="gender">Gender:</label>
+                                                            <select name="gender" id="gender">
+                                                                <option value="male">Male</option>
+                                                                <option value="female">Female</option>
+                                                                <option value="other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="language">Language:</label>
+                                                            <select name="language" id="language">
+                                                                <option value="English">English</option>
+                                                                <option value="other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <fieldset>
                                                     <legend>Email<i class="fa fa-plus-square-o ml15 pointer"
@@ -747,15 +753,21 @@
                                                         <option value="other">Secondary Email</option>
                                                     </select>
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <label for="ssn">SSN Last Four:</label>
-                                                    <input type="text" class="form-control" placeholder="1111" id="ssn">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="status">Enrollment Status:</label>
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Enrollment Status" id="status">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="ssn">SSN Last Four:</label>
+                                                            <input type="text" class="form-control" placeholder="1111"
+                                                                id="ssn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="status">Enrollment Status:</label>
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Enrollment Status" id="status">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="officeCon">Office Contact Name:</label>
@@ -821,150 +833,27 @@
                                                             <option value="female">New York</option>
                                                         </select>
                                                     </div>
-                                                    <div class="form-group">
-                                                        <label for="zip">Zip / Postal Code:</label>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Zip / Postal Code" id="zip">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="country">Country:</label>
-                                                        <select name="country" id="country">
-                                                            <option value="ppfone">United States</option>
-                                                            <option value="female">Canada</option>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="zip">Zip / Postal Code:</label>
+                                                                <input type="text" class="form-control"
+                                                                    placeholder="Zip / Postal Code" id="zip">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="country">Country:</label>
+                                                                <select name="country" id="country">
+                                                                    <option value="ppfone">United States</option>
+                                                                    <option value="female">Canada</option>
 
-                                                        </select>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
+
                                                 </fieldset>
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="address-secondary-update"
-                                                    tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add/Update Secondary Address</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="saddress1">Secondary Address Line
-                                                                        1:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 1"
-                                                                        id="saddress1">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="saddress2">Secondary Address Line
-                                                                        2:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 2"
-                                                                        id="saddress2">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="saddress3">Secondary Address Line
-                                                                        3:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 3"
-                                                                        id="saddress3">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="city">City / Municipality:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="City / Municipality" id="city">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="county">County / District:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="County / District" id="county">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="state">State / Province /
-                                                                        Territory:</label>
-                                                                    <select name="gender" id="state">
-                                                                        <option value="ppfone">New Jersey</option>
-                                                                        <option value="female">New York</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="zip">Zip / Postal Code:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Zip / Postal Code" id="zip">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="country">Country:</label>
-                                                                    <select name="country" id="country">
-                                                                        <option value="ppfone">United States</option>
-                                                                        <option value="female">Canada</option>
-
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="email-secondary-update"
-                                                    tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add/Update Secondary Email</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="semail">Secondary Email:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Email" id="semail">
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="phone-secondary-update"
-                                                    tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add/Update Secondary phone</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="sphone">Secondary phone:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary phone" id="sphone">
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
 
                                                 <div class="form-group">
                                                     <label for="program">Program:</label>
@@ -981,15 +870,23 @@
                                                     <input type="text" class="form-control"
                                                         placeholder="Provider Type / Specialty" id="provider">
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="npi">NPI Number:</label>
-                                                    <input type="text" class="form-control" placeholder="NPI Number"
-                                                        id="npi">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="tax">Tax ID:</label>
-                                                    <input type="text" class="form-control" placeholder="Tax ID"
-                                                        id="tax">
+
+
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="npi">NPI Number:</label>
+                                                            <input type="text" class="form-control"
+                                                                placeholder="NPI Number" id="npi">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="tax">Tax ID:</label>
+                                                            <input type="text" class="form-control" placeholder="Tax ID"
+                                                                id="tax">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="license">State License Number:</label>
@@ -1182,14 +1079,26 @@
                                                     <input type="text" class="form-control" placeholder="last name"
                                                         id="ln">
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <label for="gender">Gender:</label>
-                                                    <select name="gender" id="gender">
-                                                        <option value="male">Male</option>
-                                                        <option value="female">Female</option>
-                                                        <option value="other">Other</option>
-                                                    </select>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="gender">Gender:</label>
+                                                            <select name="gender" id="gender">
+                                                                <option value="male">Male</option>
+                                                                <option value="female">Female</option>
+                                                                <option value="other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="language">Language:</label>
+                                                            <select name="language" id="language">
+                                                                <option value="English">English</option>
+                                                                <option value="other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="language">Language:</label>
@@ -1208,7 +1117,6 @@
                                                             placeholder="primary email" id="pemail">
                                                     </div>
                                                 </fieldset>
-
                                                 <fieldset>
                                                     <legend>Phone Number<i class="fa fa-plus-square-o ml15 pointer"
                                                             data-toggle="modal" data-target="#phone-secondary"></i>
@@ -1219,7 +1127,6 @@
                                                             placeholder="primary phone number" id="pphone">
                                                     </div>
                                                 </fieldset>
-
                                                 <div class="form-group">
                                                     <label for="conmethod">Preferred Contact Method:</label>
                                                     <select name="conmethod" id="conmethod">
@@ -1230,14 +1137,21 @@
                                                     </select>
                                                 </div>
 
-                                                <div class="form-group">
-                                                    <label for="ssn">SSN Last Four:</label>
-                                                    <input type="text" class="form-control" placeholder="1111" id="ssn">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="status">Enrollment Status:</label>
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Enrollment Status" id="status">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="ssn">SSN Last Four:</label>
+                                                            <input type="text" class="form-control" placeholder="1111"
+                                                                id="ssn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="status">Enrollment Status:</label>
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Enrollment Status" id="status">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="officeCon">Office Contact Name:</label>
@@ -1265,7 +1179,6 @@
                                                         <option value="other">Disney World</option>
                                                     </select>
                                                 </div>
-
                                                 <fieldset>
                                                     <legend>Address<i class="fa fa-plus-square-o ml15 pointer"
                                                             data-toggle="modal" data-target="#address-secondary"></i>
@@ -1297,153 +1210,31 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="state">State / Province / Territory:</label>
-                                                        <select name="gender" id="state">
+                                                        <select name="state" id="state">
                                                             <option value="ppfone">New Jersey</option>
                                                             <option value="female">New York</option>
                                                         </select>
                                                     </div>
-                                                    <div class="form-group">
-                                                        <label for="zip">Zip / Postal Code:</label>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Zip / Postal Code" id="zip">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="country">Country:</label>
-                                                        <select name="country" id="country">
-                                                            <option value="ppfone">United States</option>
-                                                            <option value="female">Canada</option>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="zip">Zip / Postal Code:</label>
+                                                                <input type="text" class="form-control"
+                                                                    placeholder="Zip / Postal Code" id="zip">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="country">Country:</label>
+                                                                <select name="country" id="country">
+                                                                    <option value="ppfone">United States</option>
+                                                                    <option value="female">Canada</option>
 
-                                                        </select>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </fieldset>
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="address-secondary" tabindex="-1"
-                                                    role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add Secondary Address</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="saddress1">Secondary Address Line
-                                                                        1:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 1"
-                                                                        id="saddress1">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="saddress2">Secondary Address Line
-                                                                        2:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 2"
-                                                                        id="saddress2">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="saddress3">Secondary Address Line
-                                                                        3:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Address Line 3"
-                                                                        id="saddress3">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="city">City / Municipality:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="City / Municipality" id="city">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="county">County / District:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="County / District" id="county">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="state">State / Province /
-                                                                        Territory:</label>
-                                                                    <select name="gender" id="state">
-                                                                        <option value="ppfone">New Jersey</option>
-                                                                        <option value="female">New York</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="zip">Zip / Postal Code:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Zip / Postal Code" id="zip">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <label for="country">Country:</label>
-                                                                    <select name="country" id="country">
-                                                                        <option value="ppfone">United States</option>
-                                                                        <option value="female">Canada</option>
-
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="email-secondary" tabindex="-1"
-                                                    role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add Secondary Email</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="semail">Secondary Email:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary Email" id="semail">
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
-                                                <!-- Mini Modal -->
-                                                <div class="modal fade modal-mini" id="phone-secondary" tabindex="-1"
-                                                    role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5>Add Secondary phone</h5>
-                                                            </div>
-
-                                                            <div class="modal-body">
-                                                                <div class="form-group">
-                                                                    <label for="sphone">Secondary phone:</label>
-                                                                    <input type="text" class="form-control"
-                                                                        placeholder="Secondary phone" id="sphone">
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button"
-                                                                    class="btn btn-sm btn-primary">Add</button>
-                                                                <button type="button" class="btn btn-sm btn-secondary"
-                                                                    data-dismiss="modal">Close</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!--  End Modal -->
-
                                                 <div class="form-group">
                                                     <label for="program">Program:</label>
                                                     <input type="text" class="form-control" placeholder="Program"
@@ -1459,15 +1250,21 @@
                                                     <input type="text" class="form-control"
                                                         placeholder="Provider Type / Specialty" id="provider">
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="npi">NPI Number:</label>
-                                                    <input type="text" class="form-control" placeholder="NPI Number"
-                                                        id="npi">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="tax">Tax ID:</label>
-                                                    <input type="text" class="form-control" placeholder="Tax ID"
-                                                        id="tax">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="npi">NPI Number:</label>
+                                                            <input type="text" class="form-control"
+                                                                placeholder="NPI Number" id="npi">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="tax">Tax ID:</label>
+                                                            <input type="text" class="form-control" placeholder="Tax ID"
+                                                                id="tax">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="license">State License Number:</label>
@@ -1487,7 +1284,7 @@
                                                         <input class="form-check-input" type="checkbox"> Remember me
                                                     </label>
                                                 </div> -->
-                                                <div class="input-group mt10">
+                                                <div class="input-group mt35">
                                                     <button type="submit" class="btn btn-primary btn-sm right-align"
                                                         style="">Submit</button>
                                                 </div>
@@ -1502,7 +1299,240 @@
             </div>
         </div>
     </main>
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="address-secondary-update" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add/Update Secondary Address</h5>
+                </div>
 
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="saddress1">Secondary Address Line
+                            1:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 1" id="saddress1">
+                    </div>
+                    <div class="form-group">
+                        <label for="saddress2">Secondary Address Line
+                            2:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 2" id="saddress2">
+                    </div>
+                    <div class="form-group">
+                        <label for="saddress3">Secondary Address Line
+                            3:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 3" id="saddress3">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City / Municipality:</label>
+                        <input type="text" class="form-control" placeholder="City / Municipality" id="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="county">County / District:</label>
+                        <input type="text" class="form-control" placeholder="County / District" id="county">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State / Province /
+                            Territory:</label>
+                        <select name="gender" id="state">
+                            <option value="ppfone">New Jersey</option>
+                            <option value="female">New York</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="zip">Zip / Postal Code:</label>
+                                <input type="text" class="form-control" placeholder="Zip / Postal Code" id="zip">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="country">Country:</label>
+                                <select name="country" id="country">
+                                    <option value="ppfone">United States
+                                    </option>
+                                    <option value="female">Canada</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="email-secondary-update" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add/Update Secondary Email</h5>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="semail">Secondary Email:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Email" id="semail">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="phone-secondary-update" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add/Update Secondary phone</h5>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="sphone">Secondary phone:</label>
+                        <input type="text" class="form-control" placeholder="Secondary phone" id="sphone">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="address-secondary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add Secondary Address</h5>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="saddress1">Secondary Address Line
+                            1:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 1" id="saddress1">
+                    </div>
+                    <div class="form-group">
+                        <label for="saddress2">Secondary Address Line
+                            2:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 2" id="saddress2">
+                    </div>
+                    <div class="form-group">
+                        <label for="saddress3">Secondary Address Line
+                            3:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Address Line 3" id="saddress3">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City / Municipality:</label>
+                        <input type="text" class="form-control" placeholder="City / Municipality" id="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="county">County / District:</label>
+                        <input type="text" class="form-control" placeholder="County / District" id="county">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State / Province /
+                            Territory:</label>
+                        <select name="state" id="state">
+                            <option value="ppfone">New Jersey</option>
+                            <option value="female">New York</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="zip">Zip / Postal Code:</label>
+                                <input type="text" class="form-control" placeholder="Zip / Postal Code" id="zip">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="country">Country:</label>
+                                <select name="country" id="country">
+                                    <option value="ppfone">United States
+                                    </option>
+                                    <option value="female">Canada</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="email-secondary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add Secondary Email</h5>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="semail">Secondary Email:</label>
+                        <input type="text" class="form-control" placeholder="Secondary Email" id="semail">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Mini Modal -->
+    <div class="modal fade modal-mini" id="phone-secondary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Add Secondary phone</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="sphone">Secondary phone:</label>
+                        <input type="text" class="form-control" placeholder="Secondary phone" id="sphone">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary">Add</button>
+                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
     <?php include '../pages/inc/footer.php'; ?>
 
     <script src="../lib/wow.min.js" type="text/javascript"></script>
