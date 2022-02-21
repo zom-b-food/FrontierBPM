@@ -500,11 +500,11 @@ img.avatar {
 	padding-right:12px;
 }
 .box {
-	border:1px solid $tertiary-color-opacity;
+	border:1px solid $secondary-color-opacity;
 	border-radius: $border-radius-small;
-	background-color: $secondary-color;
-	padding:16px;
-	margin: 0 10px !important;
+	background-color: $simba;
+	margin: 0 auto;
+    padding: 8px;
 	&.middle {
 		width:88%;
 	}

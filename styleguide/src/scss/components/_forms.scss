@@ -277,11 +277,21 @@ textarea {
   position:relative;
   z-index: 0;
   width: 97%;
-  height: 85px;
+  height: 88px;
+  padding:4px;
 }
+
 
 textarea:focus {
   color: #000000 !important;
+}
+
+.input-group.buttons {
+  margin-top:10px;
+  margin-right:10px;
+  display:inline-block;
+  white-space: nowrap;
+  text-align: right;
 }
 
 :root textarea {
@@ -958,8 +968,9 @@ fieldset {
     padding-block-end: 0.625em;
 margin-bottom:12px;
     border-width: 2px;
-    border-style: groove;
-    border-color: $white;
+    // border-style: groove;
+    border-style:solid;
+    border-color: $moonblue;
 }
 legend {
     display: block;
