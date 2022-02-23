@@ -217,7 +217,9 @@
 .accent-color {
   color: $accent-color;
 }
-
+.red, .required {
+  color:red;
+}
 
 .ml-c {
   margin:0 auto;
