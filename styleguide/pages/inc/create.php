@@ -97,7 +97,7 @@
                                      </select>
                                  </div>
                                  <div class="form-group">
-                                     <label for="fname">First Name / Given Name:</label>
+                                     <label for="fname"><span class="required">*</span> First Name / Given Name:</label>
                                      <input type="text" class="form-control" placeholder="first name" id="fname">
                                  </div>
                                  <div class="form-group">
@@ -105,7 +105,7 @@
                                      <input type="text" class="form-control" placeholder="middle name" id="mn">
                                  </div>
                                  <div class="form-group">
-                                     <label for="ln">Surname / Family Name:</label>
+                                     <label for="ln"><span class="required">*</span> Surname / Family Name:</label>
                                      <input type="text" class="form-control" placeholder="last name" id="ln">
                                  </div>
 
@@ -133,7 +133,7 @@
                                      <div class="row">
                                          <div class="col-5">
                                              <div class="form-group">
-                                                 <label for="dob">Date of Birth:</label>
+                                                 <label for="dob"><span class="required">*</span> Date of Birth:</label>
                                                  <div class="input-group">
                                                      <input type="text" class="form-control" placeholder="10/31/1999"
                                                          id="dob">
@@ -190,7 +190,7 @@
                                              data-target="#email-secondary-update"></i>
                                      </legend>
                                      <div class="form-group">
-                                         <label for="pemail">Primary Email:</label>
+                                         <label for="pemail"><span class="required">*</span> Primary Email:</label>
                                          <input type="email" class="form-control" placeholder="primary email"
                                              id="pemail">
                                      </div>
@@ -265,7 +265,8 @@
                                      </div>
 
                                      <div class="form-group">
-                                         <label for="address">Primary Address Line 1:</label>
+                                         <label for="address"><span class="required">*</span> Primary Address Line
+                                             1:</label>
                                          <input type="text" class="form-control" placeholder="Address Line 1"
                                              id="address1">
                                      </div>

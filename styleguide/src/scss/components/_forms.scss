@@ -1224,6 +1224,7 @@ White Form Style
         &:focus,
         &:active{
           color: $primary-states-color;
+          color: $white;
         }
       }
 
@@ -1234,6 +1235,7 @@ White Form Style
         &:focus,
         &:active{
           color: $secondary-states-color;
+          color: $black;
         }
       }
 
@@ -1244,6 +1246,7 @@ White Form Style
         &:focus,
         &:active{
           color: $tertiary-states-color;
+          color: $white;
         }
       }
 
@@ -1254,6 +1257,7 @@ White Form Style
         &:focus,
         &:active{
           color: $accent-states-color;
+          color: $black;
         }
       }
       
