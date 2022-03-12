@@ -26,7 +26,6 @@
              <li><a class="nav-item nav-link nojump" href="#">Manage Care Team</a></li>
              <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
              <li><a class="nav-item nav-link nojump" href="#">Patient Survey</a></li>
-
              <div class="dropdown-divider"></div>
              <li><a class="nav-item nav-link nojump" href="#">Send SP Referal</a></li>
          </ul>
@@ -158,9 +157,7 @@
                                                  </div>
                                              </div>
                                          </div>
-
                                      </div>
-
                                  </div>
                                  <hr class="nomargin" />
                                  <div class="row">
@@ -333,7 +330,6 @@
                                      <input type="text" class="form-control" placeholder="Provider Type / Specialty"
                                          id="provider">
                                  </div>
-
 
                                  <div class="row">
                                      <div class="col-6">

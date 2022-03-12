@@ -20,7 +20,7 @@
             line-height: $line-height-general;
 
             &:hover {
-                background-color: $transparent-bg;
+                background-color: $seagray !important;
             }
 
             &.active{
@@ -171,19 +171,21 @@
     border-bottom:0;
     padding-right: 15px;
 }
+
 .vert.nav-tabs .vert.nav-link  {
     border-top-left-radius: $btn-curved-radius;
     border-top-right-radius: $btn-curved-radius;
 }
 
 .vert.nav-tabs .vert.nav-link.active, .hor.nav-tabs .hor.nav-link.active {
-@include secondary-tab-bg($secondary-color, $primary-color);
+    @include secondary-tab-bg($secondary-color, $primary-color);
 }
 
 .vert.tab-content>.active {
     display: block;
     min-height: 165px;
 }
+
 .vert.nav.nav-tabs {
     float: left;
     display: block;
