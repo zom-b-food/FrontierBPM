@@ -71,7 +71,10 @@
                               Contact</button>
                           <img src="../dist/img/bar.png" /> <input type="text" class="form-control short"
                               placeholder="NPI Lookup">
-                          <button class="btn btn-tertiary btn-sm">NPI Lookup</button>
+
+                          <button class="btn btn-tertiary btn-sm" data-toggle="modal" data-target="#npi">NPI
+                              Lookup</button>
+
                       </div>
                       <div class="album short">
                           <p>
@@ -88,7 +91,23 @@
           </div>
       </div>
   </div>
-  <button type="button" class="sliderbutton">
-      <i class="fa fa-exchange fa-2x"></i>
-      <br />&nbsp;Summary&nbsp;
-  </button>
+  <div class="modal fade modal-mini" id="npi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5>NPI Lookup</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="form-group">
+                      <label for="sphone">NPI Option 1:</label>
+                      <input type="text" class="form-control" placeholder="NPI Option 1" id="npi">
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-sm btn-primary">Lookup</button>
+                  <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>

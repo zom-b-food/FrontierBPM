@@ -11,25 +11,11 @@
          <ul class="dropdown-content nobullet bg-primary">
              <li data-toggle="tab" data-target="#wrapup"><a class="nav-item nav-link nojump" href="#">Wrap
                      Up</a></li>
-             <div class="dropdown-divider"></div>
+
              <li data-toggle="tab" data-target="#update">
                  <a class="nav-item nav-link nojump" href="#">Update Contact Profile</a>
              </li>
-             <li><a class="nav-item nav-link nojump" href="#">Enroll Patient</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Manage Prescriptions</a></li>
-             <div class="dropdown-divider"></div>
-             <li><a class="nav-item nav-link nojump" href="#">Benefit Investigation</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">PAP Eligability</a></li>
-             <div class="dropdown-divider"></div>
-             <li><a class="nav-item nav-link nojump" href="#">Consent Management</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Manage Appointment</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Manage Care Team</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Manage Insurance</a></li>
-             <li><a class="nav-item nav-link nojump" href="#">Patient Survey</a></li>
 
-             <div class="dropdown-divider"></div>
-             <li><a class="nav-item nav-link nojump" href="#">Send SP Referal</a></li>
          </ul>
      </div>
      <div class="card-body txt-black card-scroll">
@@ -108,6 +94,7 @@
                                      <label for="ln"><span class="required">*</span> Surname / Family Name:</label>
                                      <input type="text" class="form-control" placeholder="last name" id="ln">
                                  </div>
+
                                  <div class="row">
                                      <div class="col-3">
                                          <div class="form-group">
@@ -158,7 +145,9 @@
                                                  </div>
                                              </div>
                                          </div>
+
                                      </div>
+
                                  </div>
                                  <hr class="nomargin" />
                                  <div class="row">
@@ -246,6 +235,7 @@
 
                              </div>
                              <div class="col-6">
+
                                  <fieldset>
                                      <legend>Address<i class="fa fa-plus-square-o ml15 pointer" data-toggle="modal"
                                              data-target="#address-secondary-update"></i>
@@ -259,6 +249,7 @@
                                                  dates)</option>
                                          </select>
                                      </div>
+
                                      <div class="form-group">
                                          <label for="address"><span class="required">*</span> Primary Address Line
                                              1:</label>
@@ -299,6 +290,7 @@
                                                  <input type="text" class="form-control" placeholder="Zip / Postal Code"
                                                      id="zip">
                                              </div>
+
                                          </div>
                                          <div class="col-6">
                                              <div class="form-group">
@@ -325,6 +317,8 @@
                                      <input type="text" class="form-control" placeholder="Provider Type / Specialty"
                                          id="provider">
                                  </div>
+
+
                                  <div class="row">
                                      <div class="col-6">
                                          <div class="form-group">

@@ -91,8 +91,8 @@
                          <div id="about" class="tab-pane fade active show">
                              <div class="row tight smoke">
                                  <div class="col-sm-6">
-                                     <h5>Welcome to the Styleguide for the Patient Services App</h5>
-                                     <p>The base UI framework is Bootstrap 4 and all its dependencies. Base font is
+                                     <h3>Welcome to the Styleguide for the Patient Services App</h3>
+                                     <h5>The base UI framework is Bootstrap 4 and all its dependencies. Base font is
                                          14px. Font sizes are defined in <em>em</em> and containers <em>rem</em>.
                                          Style overrides
                                          are in _bs-elements.scss and _components.scss, and 'shortcuts' are in
@@ -100,7 +100,7 @@
                                          manager to minify the css files and to compress all the images. Details can be
                                          found in gulpfile.js. The github repo is here: <a
                                              href="https://github.com/zom-b-food/FrontierBPM" target="_blank">
-                                             https://github.com/zom-b-food/FrontierBPM</a></p>
+                                             https://github.com/zom-b-food/FrontierBPM</a></h5>
                                  </div>
                                  <div class="col-sm-6">
                                      <p>Most elements/components are stock BS4, however I have used

@@ -52,6 +52,7 @@
                              <label for="zip">Zip / Postal Code:</label>
                              <input type="text" class="form-control" placeholder="Zip / Postal Code" id="zip">
                          </div>
+
                      </div>
                      <div class="col-6">
                          <div class="form-group">
@@ -60,6 +61,7 @@
                                  <option value="ppfone">United States
                                  </option>
                                  <option value="female">Canada</option>
+
                              </select>
                          </div>
                      </div>
@@ -80,11 +82,13 @@
              <div class="modal-header">
                  <h5>Add/Update Additional Email</h5>
              </div>
+
              <div class="modal-body">
                  <div class="form-group">
                      <label for="semail">Additional Email:</label>
                      <input type="text" class="form-control" placeholder="Additional Email" id="semail">
                  </div>
+
              </div>
              <div class="modal-footer">
                  <button type="button" class="btn btn-sm btn-primary">Add</button>
@@ -101,11 +105,13 @@
              <div class="modal-header">
                  <h5>Add/Update Additional phone</h5>
              </div>
+
              <div class="modal-body">
                  <div class="form-group">
                      <label for="sphone">Additional phone:</label>
                      <input type="text" class="form-control" placeholder="Additional phone" id="sphone">
                  </div>
+
              </div>
              <div class="modal-footer">
                  <button type="button" class="btn btn-sm btn-primary">Add</button>
@@ -122,6 +128,7 @@
              <div class="modal-header">
                  <h5>Add Additional Address</h5>
              </div>
+
              <div class="modal-body">
                  <div class="form-group">
                      <label for="addressType">Address Use:</label>
@@ -176,10 +183,12 @@
                                  <option value="ppfone">United States
                                  </option>
                                  <option value="female">Canada</option>
+
                              </select>
                          </div>
                      </div>
                  </div>
+
              </div>
              <div class="modal-footer">
                  <button type="button" class="btn btn-sm btn-primary">Add</button>
@@ -196,11 +205,13 @@
              <div class="modal-header">
                  <h5>Add Additional Email</h5>
              </div>
+
              <div class="modal-body">
                  <div class="form-group">
                      <label for="semail">Additional Email:</label>
                      <input type="text" class="form-control" placeholder="Additional Email" id="semail">
                  </div>
+
              </div>
              <div class="modal-footer">
                  <button type="button" class="btn btn-sm btn-primary">Add</button>
@@ -272,3 +283,5 @@
          </div>
      </div>
  </div>
+
+ 
